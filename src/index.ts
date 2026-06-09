@@ -29,16 +29,14 @@ export class MyMCP extends McpAgent {
         description: "List the available Personal Context Portfolio markdown files.",
         inputSchema: {},
       },
-      async () => {
-        return {
-          content: [
-            {
-              type: "text",
-              text: PORTFOLIO_FILES.join("\n"),
-            },
-          ],
-        };
-      },
+      async () => ({
+        content: [
+          {
+            type: "text",
+            text: PORTFOLIO_FILES.join("\n"),
+          },
+        ],
+      }),
     );
 
     this.server.registerTool(
@@ -89,12 +87,33 @@ export class MyMCP extends McpAgent {
   }
 }
 
+function unauthorized() {
+  return new Response("Unauthorized", {
+    status: 401,
+    headers: {
+      "content-type": "text/plain; charset=utf-8",
+      "WWW-Authenticate": 'Bearer realm="personal-context-portfolio"',
+    },
+  });
+}
+
 export default {
-  fetch(request: Request, env: Env, ctx: ExecutionContext) {
+  fetch(request: Request, workerEnv: Env, ctx: ExecutionContext) {
     const url = new URL(request.url);
 
     if (url.pathname === "/mcp") {
-      return MyMCP.serve("/mcp").fetch(request, env, ctx);
+      const authHeader = request.headers.get("Authorization");
+      const expectedAuth = `Bearer ${workerEnv.API_TOKEN}`;
+
+      if (!workerEnv.API_TOKEN) {
+        return new Response("Missing API_TOKEN secret", { status: 500 });
+      }
+
+      if (authHeader !== expectedAuth) {
+        return unauthorized();
+      }
+
+      return MyMCP.serve("/mcp").fetch(request, workerEnv, ctx);
     }
 
     return new Response("Not found", { status: 404 });
