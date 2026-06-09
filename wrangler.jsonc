@@ -59,7 +59,7 @@
 	"assets": {
         "directory": "./portfolio",
         "binding": "ASSETS"
-        }
+        },
 	/**
 	 * Service Bindings (communicate between multiple Workers)
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
