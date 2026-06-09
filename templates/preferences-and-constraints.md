@@ -1,53 +1,36 @@
 # Preferences and Constraints
 
-## What This File Is For
+## Time and Attention Constraints
 
-The "always do this / never do that" file. Hard rules and strong preferences that any agent working for you should respect without being told each time. This covers everything from time zone constraints to formatting opinions to things you hate. If there's something an agent will get wrong 100% of the time unless you tell it, it goes here.
+- Calendar saturation is the norm. Most days are heavily scheduled with recurring meetings and ad hoc calls, leaving limited open blocks.
+- Context switching is a real cost. Work is often fragmented across integrations, operations, and leadership topics, which makes it harder to get into deep focus.
+- Protected focus blocks are scarce. Deep work tends to get pushed into early mornings or evenings, and part of the goal is to move more of that into the workday without extending total hours.
+- Any plan or recommendation that assumes "just find a few extra hours" is unrealistic; it needs to fit into an already crowded week or explicitly displace something else.
 
----
+## Workstyle Preferences
 
-## Interview Protocol
+- Prefer context first, then the ask. Lead with what we are talking about and why it matters, then the decision or request.
+- Bullets by default. Use short paragraphs only when nuance or explanation is actually needed.
+- Show tradeoffs and options. Surface 2-3 realistic options with clear pros and cons, then make a recommendation and explain why.
+- Keep detail focused on impact. Include only what materially affects the decision or outcome; avoid exhaustive dependency lists.
+- Recommendations are expected. Do not just present information; propose a path and explain the reasoning.
 
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
+## Collaboration Preferences
 
-**Instructions for the build partner:** You're helping the user create their preferences and constraints file. This should feel like a set of clear rules, not a personality profile. Push for concrete, actionable preferences — "I hate meetings before 10am" is useful; "I value work-life balance" is not.
+- Internal vs. external channels are distinct: Teams for internal, Outlook email for external and longer-form or executive communication.
+- Written artifacts should match where they live: rough thinking in Obsidian, working drafts in OneDrive, and company truth in SharePoint or IT Glue as appropriate.
+- Project work should plug into the existing planning and execution loop (Bullet Journal to Excel in SharePoint to workflow emails to ConnectWise Manage) rather than invent new, parallel systems.
 
-**Questions to ask:**
+## Things to Avoid
 
-1. Are there hard constraints on your time or availability that any agent working for you should know? Time zones, hours you don't work, days that are off limits?
-2. What are your non-negotiables — things you insist on in how your work gets done, outputs get formatted, or interactions happen?
-3. What do you hate? Meetings that should be emails, specific jargon, output formats that annoy you — anything where your reaction is strong.
-4. Are there personal constraints that affect your work — things like travel limitations, family schedule considerations, health factors — anything you'd want an agent to account for? Only share what you're comfortable with.
-5. When an AI produces something for you, what are your formatting preferences? Length, structure, level of detail, tone?
+- Wall-of-text emails or documents with no clear ask or next step.
+- Dumping every dependency, edge case, and tangent instead of narrowing to what actually changes the decision.
+- Asking for a decision without options, tradeoffs, or a recommended path.
+- Suggestions that expand scope or add projects without acknowledging current calendar saturation and limited focus blocks.
 
-**When you have enough:** After 4-5 questions.
+## Guardrails for AI and Agents
 
-**After drafting:** Present the draft. Ask the user if there's anything missing that they'd find themselves correcting an agent about repeatedly. Those recurring corrections are exactly what this file is for.
-
----
-
-## Output Structure
-
-```markdown
-# Preferences and Constraints
-
-## Hard Constraints
-
-[Non-negotiable boundaries — time zones, availability windows, scheduling rules, things that are off limits. These are rules, not preferences.]
-
-## Strong Preferences
-
-[Things you insist on but could theoretically flex on. Tool choices, formats, processes, ways of working that you feel strongly about.]
-
-## Things I Hate
-
-[Specific things that bother you — meeting formats, communication patterns, jargon, AI output patterns. The stuff where your reaction is visceral.]
-
-## Personal Constraints
-
-[Anything about your personal life that affects your work and that you want agents to account for — family schedule, health considerations, location, travel restrictions. Only what you choose to share.]
-
-## AI Output Preferences
-
-[How you want AI-generated content formatted and delivered. Length, structure, level of detail, tone, formatting conventions.]
-```
+- Assume time and attention are the scarcest resources; optimize for reducing cognitive load, not increasing it.
+- When proposing work, show where it fits in the week or what it replaces.
+- Default to improving or feeding the existing systems (Daily WIN, ConnectWise, dashboards, documents) rather than creating one-off artifacts that will not be maintained.
+- Be explicit when something will require deep work so it can be deliberately scheduled, not quietly added to the margins.

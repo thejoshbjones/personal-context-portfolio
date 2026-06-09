@@ -1,58 +1,79 @@
 # Role and Responsibilities
 
-## What This File Is For
-
-This is an operational description of your work — what your weeks actually look like, what you're accountable for, what you produce. Agents use this to understand the rhythm and shape of your job so they can help with the right things at the right times. It's not a job description. It's a field guide to how you actually spend your days.
-
----
-
-## Interview Protocol
-
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
-
-**Instructions for the build partner:** You're helping the user create their role and responsibilities file. This should capture the operational reality of their work, not the idealized version. Ask the following questions one at a time. Use what you already know from the identity file (if completed) to skip redundant questions and ask better follow-ups.
-
-**Questions to ask:**
-
-1. Walk me through a typical week. What are the recurring things that happen every week without fail?
-2. What are you directly accountable for — what are the things where if they don't happen, it's on you?
-3. What decisions do you make regularly? Not the big strategic ones — the routine ones that come up every week.
-4. What do you produce? Reports, analyses, plans, code, presentations — what are the actual outputs of your work?
-5. Who do you report to? Who reports to you, if anyone?
-6. Are there monthly or quarterly rhythms that shape your work — planning cycles, reviews, board meetings, anything like that?
-
-**When you have enough:** After 4-6 questions. This file is medium length. Capture the operational reality, not every edge case.
-
-**After drafting:** Present the draft and ask the user to identify anything that doesn't sound right. Pay particular attention to whether the cadences and rhythms are accurate — people often forget recurring obligations until they see them missing.
-
----
-
-## Output Structure
-
-```markdown
-# Role and Responsibilities
-
 ## Core Responsibilities
 
-[What you're accountable for — the things that are unambiguously on you.]
+- Own and drive integration initiatives, including sequencing, risk management, and communication to stakeholders.
+- Lead MIT/Cyber/Cloud cost evaluation and develop a long-term datacenter and cloud strategy for the organization through at least the end of 2026.
+- Develop and maintain the long-term plan for MIT/Cyber/Cloud services, aligning infrastructure, security, and cost decisions with executive priorities and integration realities.
+- Operationalize Secure Choice AI, including defining use cases, processes, and guardrails so it becomes a reliable, scalable part of how the business operates.
+- Indirectly own and influence adjacent integration and risk areas, including CSP consolidation, legacy phone and firewall risk assessments, project delivery standardization, internal security tools, registrar consolidation, and specific migration projects, even when they are formally led by others.
 
 ## Weekly Cadence
 
-[Recurring meetings, check-ins, deadlines, rituals. The skeleton of a typical week.]
+### Daily
+
+- Send a Daily WIN email each morning to direct staff and key executives, setting priorities and surfacing wins and focus areas for the day.
+- Review upcoming items and meetings around 9:30 pm to prepare for the following day.
+- Complete deep work on integration planning, risk assessments, and strategic initiatives primarily in early mornings and evenings, with the intention of moving more of that work into protected daytime blocks over time.
+
+### Monday
+
+- 9:00 am 1:1 with CEO Will Slappey.
+- 10:00 am 1:1 with Jordan Docter.
+- 11:30 am 1:1 with Dub Carter.
+- 1:00 pm 1:1 with COO Todd Fowler.
+
+### Tuesday
+
+- 9:00 am Platform Integrations and Operational Maturity call with multiple operations directors.
+- 11:00 am DataCenter Planning call with Dub Carter, Moses Kingsbury, and Adam Horton.
+- 1:00 pm 1:1 with Matt Currie.
+- 2:30 pm Centralized Service Team Directors call with Dub Carter, Tina Forrest, Matt Currie, and Jordan Docter.
+- 4:00 pm Integration and Finance Updates call on the second Tuesday of each month.
+
+### Wednesday
+
+- Meetings vary and adjust throughout the week based on current integration needs, follow-ups, and problem-solving.
+
+### Thursday
+
+- 9:30 am to 11:00 am Standing Q2 Rock Objective call.
+- 11:30 am call with Dub Carter and Jordan Docter focused on building the new vCIO process for IT Voice.
+- 1:00 pm 1:1 with Tina Forrest.
+- 3:00 pm LOB Project Schedule Alignment call to develop a consistent scheduling process for staff.
+- 4:00 pm LOB Tools Alignment call to build clarity around ownership of service-delivery tools.
+
+### Friday
+
+- 11:00 am All Hands call.
+- 4:00 pm scheduled block focused on reducing inbox volume and closing open loops.
+- 5:00 pm recurring sync with Nick Harkins from Ntiva.
 
 ## Monthly / Quarterly Rhythms
 
-[Planning cycles, reviews, reporting periods, seasonal patterns. The bigger loops.]
+- Participate in quarterly rock objective planning and review, especially around datacenter, cloud, and integration priorities.
+- Drive recurring decision points on long-term datacenter and cloud strategy, including cost, risk, and timing.
+- Contribute to the monthly Integration and Finance Updates call to align financial and technical integration priorities.
+- Review progress on indirectly owned responsibilities and step in when risks, dependencies, or delays require escalation or reprioritization.
 
 ## Key Decisions
 
-[The decisions you make regularly — what comes across your desk that requires your judgment.]
+- Decide where capital expenditure should go toward cloud infrastructure investment.
+- Decide which legacy systems should be reduced or retired, and when.
+- Evaluate tradeoffs between options and create clear communication and explanation of those decisions at the executive level.
+- Help determine the pace and structure of integration initiatives when multiple operational priorities are competing for time and resources.
 
 ## What I Produce
 
-[Your outputs — deliverables, artifacts, reports, plans, code, whatever you create as part of your work.]
+- Integration initiative plans and sequencing documents.
+- Long-term datacenter, MIT, cyber, and cloud strategy materials.
+- Executive-level decision support, including summaries, tradeoff explanations, and recommendation framing.
+- Daily WIN emails and other recurring written updates used to orient leaders and staff.
+- Process and alignment artifacts for cross-line-of-business initiatives, including scheduling, tooling, and service-delivery work.
+- Operationalization plans for Secure Choice AI.
 
 ## Reporting Structure
 
-[Who you report to, who reports to you. Keep it simple — names and roles.]
-```
+- Reports directly to CEO Will Slappey and COO Todd Fowler.
+- Works closely with Jordan Docter, Dub Carter, Tina Forrest, Matt Currie, Moses Kingsbury, Adam Horton, and other operations and service leaders.
+- Has direct staff who receive daily direction, prioritization, and communication through the Daily WIN cadence.

@@ -1,53 +1,47 @@
 # Tools and Systems
 
-## What This File Is For
+## Communication and Calendar
 
-What you use, how it's set up, and what connects to what. Agents use this to suggest workflows that fit your actual stack, avoid recommending tools you've already rejected, and understand where your data lives. If an agent is going to help you build something, it needs to know what it's building on top of.
+- **Outlook (email + calendar):** Primary channel for external communication and longer-form or executive-oriented messages. Calendar scheduling and formal invites live here.
+- **Microsoft Teams:** Primary channel for internal, real-time communication. Almost all live conversations, quick questions, and internal collaboration happen in Teams. Teams is internal only; external communication is handled via email.
 
----
+## Docs and Knowledge
 
-## Interview Protocol
+- **Personal source of truth:**
+  - **Obsidian:** Digital notepad and scratch space. Used for thinking, rough notes, and early-stage ideas that may or may not become formal work.
+  - **OneDrive:** Personal working area for documents that are moving toward being shared or published. Initial drafts for things that should eventually be visible to others start here.
 
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
+- **Company source of truth:**
+  - **Loop:** Used for meeting-focused collaboration. Lives mostly in the context of meetings rather than as a general documentation system.
+  - **SharePoint:** Internal publishing layer for policies, shared documents, and reference material the company needs to see and use.
+  - **IT Glue:** System of record for customer environments. Used to document client infrastructure, configurations, and other MSP-centric documentation.
 
-**Instructions for the build partner:** You're helping the user create their tools and systems file. This should be a practical inventory of their working environment, not an exhaustive list of every app on their phone. Focus on the tools that shape how they work day to day.
+## Project and Task Management
 
-**Questions to ask:**
+- **Planning flow (top-down):**
+  - Start in the **Bullet Journal** to capture priorities, ideas, and commitments.
+  - Review **ConnectWise Manage** to see existing tickets, projects, and work in flight.
+  - Look at prior **Daily WIN** emails and plans from the previous quarter to understand what was committed to and what remains.
+  - From this, build the list of planned work for the upcoming quarter in **Excel**, stored in **SharePoint** as the published view of all planned work.
 
-1. What tools and platforms do you use every day? Walk me through your core stack.
-2. How is your setup customized? Any specific configurations, integrations, or workflows that an agent should know about?
-3. Where does your important data live — docs, spreadsheets, databases, specific platforms?
-4. Are there tools you're currently evaluating or planning to start using?
-5. Anything you've tried and deliberately stopped using? What didn't work?
+- **Execution flow (bottom-up):**
+  - A workflow pulls the published Excel document of quarterly work, filters for items due this quarter, breaks them into weekly milestones, and emails the milestones for the current week.
+  - Weekly milestone emails feed into the **Bullet Journal**, where tasks are captured and organized.
+  - Use that same email and Bullet Journal notes to create the daily **Daily WIN** (Daily What's Important Now) email that goes out each morning.
+  - **ConnectWise Manage** is then used to execute the tasks and track time, serving as the operational system of record for work performed.
 
-**When you have enough:** After 4-5 questions. Keep it practical.
+- **Key tools in this loop:** Bullet Journal, Daily WIN, Excel in SharePoint, and ConnectWise Manage.
 
-**After drafting:** Present the draft. Ask the user if anything important is missing from the daily tools — people often forget to mention things they use so habitually they don't think of them as tools.
+## Automation and AI
 
----
+- **Hatz:** Primary AI and automation environment for work tasks and work-related thinking.
+- **Microsoft Copilot:** Used primarily for searching and working within the Office 365 suite.
+- **Power Automate:** Used for non-agentic automations that do not require human judgment.
+- **Perplexity:** Used for non-work-related tasks and kept separate from the work environment.
 
-## Output Structure
+## Reporting and Metrics
 
-```markdown
-# Tools and Systems
-
-## Daily Tools
-
-[The tools and platforms you use every day. For each: what it is, what you use it for, and any notable configuration.]
-
-## Data Sources
-
-[Where your important data lives — documents, spreadsheets, databases, cloud storage, specific platforms. What lives where.]
-
-## Integrations and Connections
-
-[How your tools connect to each other. Automations, integrations, data flows between systems.]
-
-## Evaluating or Planning to Adopt
-
-[Tools you're looking at or planning to start using. What problem they'd solve.]
-
-## Tried and Rejected
-
-[Tools you've deliberately stopped using and why. Saves agents from recommending things you've already ruled out.]
-```
+- **Monthly Financials (Excel):** Financial reporting and analysis currently live in Excel and form the main monthly financial view.
+- **Weekly TE Exception Tracker (BrightGauge):** Weekly BrightGauge report focused on TE exceptions, used to track and respond to outliers or issues.
+- **Scorecard (BrightGauge, in progress):** A scorecard-style report is being built in BrightGauge to provide a consolidated view of key metrics once completed.
+- **SharePoint:** Acts as a storage and access layer for reports that need to be shared, especially Excel-based reports that are part of ongoing review cycles.

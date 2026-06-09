@@ -1,53 +1,47 @@
 # Goals and Priorities
 
-## What This File Is For
+## What I’m Optimizing For (Next 12–24 Months)
 
-What you're optimizing for — this quarter, this year, and longer term. Agents use this to weight decisions and recommendations appropriately. An agent that knows you're prioritizing speed over polish right now will give you different advice than one that thinks you're optimizing for quality. This file also captures what you're deliberately NOT doing, which is just as important.
+1. **Non-negotiable (next 12 months):** Get the Cloud, Managed IT, and Cyber lines of business to an operational maturity level that makes them acquisition-ready.
+2. **High priority (next 12 months):** Start and grow an indie software development practice that generates real revenue to service and pay down debt.
+3. **Important but longer horizon (next ~24 months):** Position myself for larger executive scope, expanding my responsibilities and influence at the platform level.
 
----
+## 12-Month Focus
 
-## Interview Protocol
+### 1. Operational Maturity in Cloud, Managed IT, and Cyber (Non-Negotiable)
 
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
+- **Goal:** Move Cloud, Managed IT, and Cyber to a level of operational maturity where service quality, processes, and financial performance are consistent and scalable enough to begin acquiring additional companies on top of them.
+- **Why it matters:** Acquisition plans depend on these lines being stable, predictable, and standardized. If they are not mature, acquisitions add fragility instead of value.
+- **What good looks like:**
+  - Standardized service delivery across the three lines of business.
+  - Clear processes, roles, and handoffs that do not depend on heroics.
+  - Financial performance and KPIs that demonstrate readiness for bolt-on acquisitions.
+- **Priority level:** #1. This cannot slip; other goals bend around this one when there are conflicts.
 
-**Instructions for the build partner:** You're helping the user create their goals and priorities file. This is about what they're optimizing for, not their project list (that's a different file). Push for the difference between goals and projects if they start listing tasks. Use what you know from previous files to ask informed follow-ups.
+### 2. Indie Software Development Practice to Service Debt
 
-**Questions to ask:**
+- **Goal:** Stand up an indie software development practice that produces real, recurring revenue specifically aimed at paying down debt.
+- **Why it matters:** Debt service is a constraint on freedom and future options. A focused revenue stream for debt repayment creates more flexibility for future moves.
+- **What good looks like by 12 months:**
+  - At least one software product or offering shipped and in market.
+  - Clear revenue associated with the practice, not just exploration or prototypes.
+  - A defined plan for how that revenue flows into debt reduction over time.
+- **Priority level:** #2 overall, but still time-bound to the next 12 months with a bias toward real revenue rather than purely exploratory projects.
 
-1. What are you trying to accomplish in the next few months? Not your project list — your goals. What does success look like by the end of this quarter or this season?
-2. What about longer term — this year, or the next couple of years? What are you building toward?
-3. When you have to make a tradeoff — speed vs. quality, short-term vs. long-term, growth vs. stability — where do you generally land?
-4. What are you explicitly NOT prioritizing right now, even if it's important? What have you deliberately put on the back burner?
-5. If things go well over the next six months, what's different about your work or your life?
+## 24-Month Focus
 
-**When you have enough:** After 4-5 questions.
+### 3. Positioning for Larger Executive Scope
 
-**After drafting:** Present the draft. Ask the user to check whether the tradeoff preferences feel accurate — those are the highest-leverage lines in this file because they directly affect how agents make recommendations.
+- **Goal:** Expand my executive scope over the next 24 months so I own a broader span of responsibility and impact across the platform beyond current integrations and lines of business.
+- **Why it matters:** Larger scope increases leverage and gives me more ability to shape strategy, organizational design, and how the rollup operates as it grows.
+- **What good looks like by ~24 months:**
+  - A clear narrative and track record that supports a larger role, such as broader operational or portfolio ownership.
+  - Visible results in integration, operational maturity, and financial performance that make a case for expanded responsibilities.
+  - Strong relationships and trust with the CEO, COO, and key peers that make expanded scope a natural next step.
+- **Priority level:** Important, but intentionally on a 24-month horizon. This can move more slowly if required to protect progress on operational maturity and debt-related goals.
 
----
+## Intentional Tradeoffs
 
-## Output Structure
-
-```markdown
-# Goals and Priorities
-
-## Current Goals
-
-[What you're trying to accomplish in the near term — this quarter or this season of work. Concrete outcomes, not aspirations.]
-
-## Longer-Term Goals
-
-[This year or the next few years. What you're building toward. Where you want to be.]
-
-## How I Think About Tradeoffs
-
-[Your default positions on common tradeoffs — speed vs. quality, growth vs. stability, short-term vs. long-term, breadth vs. depth. Where you tend to land when forced to choose.]
-
-## What I'm NOT Prioritizing
-
-[Things that are important but deliberately on the back burner. Things you've decided not to do right now so agents don't keep suggesting them.]
-
-## What Success Looks Like
-
-[If things go well in the next six months, what's different? Paint the picture so agents understand what you're working toward.]
-```
+- **Short-term:** Prioritize operational maturity and debt-service revenue over opportunistic projects that do not support those outcomes.
+- **Medium-term:** Accept slower movement on career-scope expansion in order to keep the lines of business and indie software practice on track.
+- **Scope management:** Actively push back on work that adds complexity without contributing to operational maturity improvements, acquisition readiness, or meaningful debt reduction.

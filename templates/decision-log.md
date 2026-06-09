@@ -1,66 +1,68 @@
 # Decision Log
 
-## What This File Is For
+## D-001: Keep Benton Automotive on Legacy ProofPoint
 
-How you make decisions, with real examples. This is the most underrated file in the portfolio. When an agent is helping you think through a new decision, knowing how you've decided things before is enormously valuable — it can match your reasoning style, surface the right kind of information, and avoid suggesting approaches that don't fit how your mind works.
-
----
-
-## Interview Protocol
-
-*Hand this entire file to your AI build partner and say "let's do this one." Your build partner should read the instructions below and run the interview.*
-
-**Instructions for the build partner:** You're helping the user create their decision log. The examples are the most important part — push for specifics on at least two real decisions. Abstract descriptions of decision-making style are less useful than concrete stories about actual decisions and how they were made.
-
-**Questions to ask:**
-
-1. How do you generally make decisions? Are you the type to analyze everything, go with your gut, talk it through with people, sleep on it?
-2. What information do you want before you make a call? What makes you feel ready to decide?
-3. Tell me about a significant decision you've made recently — could be work, could be personal. What was it and how did you think it through?
-4. Can you give me another example — ideally a different kind of decision?
-5. How do you handle situations where you don't have enough information but still need to decide?
-6. Is there a decision you're currently sitting with or working through?
-
-**When you have enough:** After 4-5 questions. The examples are the most important part — make sure you have specifics on at least two real decisions before drafting.
-
-**After drafting:** Present the draft. Ask the user if the decision examples accurately capture their reasoning process — not just the outcome, but how they actually thought through it.
+- **Date:** 2026-06 (approx.)
+- **Area:** Customer / Product / Risk Management
+- **Decision:** Leave Benton Automotive on a legacy ProofPoint product rather than forcing a migration.
+- **Context:** Benton Automotive is a meaningful account with a relationship that could be damaged by a disruptive or poorly timed product change. The technical benefits of moving off the legacy product were outweighed by relationship risk.
+- **Alternatives considered:**
+  - Force a migration to the new standard product stack on a fixed timeline.
+  - Incentivize a migration with discounts or other benefits.
+  - Maintain the legacy product for this customer while continuing migrations elsewhere.
+- **Rationale:** Relationship risk and potential churn were judged to be higher-cost than the technical debt of keeping this one customer on a legacy product. The safest path was to preserve trust and stability for this account.
+- **Implications for future work:**
+  - This is an intentional exception, not a model for all customers.
+  - Any future proposals involving Benton Automotive and email/security products should assume they remain on legacy ProofPoint unless a clearly better, low-risk migration path is defined.
 
 ---
 
-## Output Structure
+## D-002: Separate Work AI from Personal AI
 
-```markdown
-# Decision Log
+- **Date:** 2026-06 (approx.)
+- **Area:** Tools / Governance / Side Projects
+- **Decision:** Use separate AI environments for work and personal/adjacent projects.
+- **Context:** There is ongoing experimentation with AI for both work and personal/indie business ideas. Using the same environment for both could blur boundaries around data, cost, and governance.
+- **Alternatives considered:**
+  - Use the same AI tools and accounts for both work and personal projects.
+  - Strictly limit AI use to work only and keep personal experimentation separate from AI entirely.
+  - Use structurally similar but separate tools for work vs. personal.
+- **Rationale:** Chose to keep work and personal AI use separate to avoid using work resources for side projects that may become adjacent businesses, while still benefiting from similar capabilities. For example, using Hatz for work tasks and Perplexity for non-work, recognizing they both aggregate models and use credit-based cost normalization.
+- **Implications for future work:**
+  - Work-related automations, agents, and prompts should live in the work stack (e.g., Hatz and company-approved tools).
+  - Personal or speculative business ideas should not be implemented in work environments.
+  - Recommendations should respect this separation rather than suggesting centralization in one AI tool.
 
-## How I Make Decisions
+---
 
-[Your general approach — analytical, intuitive, consultative, deliberate, fast. How you typically work through important choices.]
+## D-003: Reorganized Integration Timeline with Will, Todd, and Jake
 
-## What I Need Before Deciding
+- **Date:** 2026-06 (approx.)
+- **Area:** Integrations / Roadmap / Executive Alignment
+- **Decision:** Rearranged the integration timeline in collaboration with Will, Todd, and Jake to reflect updated organizational needs and priorities.
+- **Context:** The original integration sequence did not fully reflect current operational and strategic realities. The timeline was adjusted to better match what the organization needed most at that time.
+- **Alternatives considered:**
+  - Stick with the original integration timeline despite misalignment with new priorities.
+  - Make incremental tweaks instead of a broader reordering.
+  - Fully re-baseline the timeline with stakeholder involvement.
+- **Rationale:** A more accurate, priority-aligned timeline was necessary, even if it meant some items that otherwise might have taken priority were moved. Alignment on the new sequence was more valuable than preserving a theoretically ideal order that no longer matched organizational needs.
+- **Implications for future work:**
+  - The current integration sequence is the working baseline.
+  - Recommendations should start from the current approved timeline and propose changes only with clear justification.
 
-[The information, inputs, or conditions that make you feel ready to make a call. What you look for before committing.]
+---
 
-## Recent Decisions
+## D-004: Implement Daily WIN as a Personal Operating Cadence
 
-[2-3 real examples of significant decisions you've made. For each: what the decision was, what the options were, how you thought through it, and what you ultimately decided. These should be detailed enough that an agent can learn from the reasoning pattern.]
-
-### [Decision 1 Title]
-
-[What it was, what the options were, how you thought through it, what you decided.]
-
-### [Decision 2 Title]
-
-[What it was, what the options were, how you thought through it, what you decided.]
-
-## How I Handle Uncertainty
-
-[What you do when you don't have enough information but still need to decide. Your relationship with incomplete information and ambiguity.]
-
-## Who I Consult
-
-[The people you talk to before big decisions and what you look for from them. Do you want validation, challenge, information, or something else?]
-
-## Current Open Decisions
-
-[Anything you're currently working through. Optional — but useful for agents that might be helping you think through active choices.]
-```
+- **Date:** 2026-06 (approx.)
+- **Area:** Personal Workflow / Team Communication
+- **Decision:** Implemented Daily WIN ("What's Important Now") as a recurring daily focus ritual.
+- **Context:** There was a need for clearer daily focus and a simple way to anchor execution around the most important work. Existing systems tracked tasks, but they did not create enough clarity around what mattered most each day.
+- **Alternatives considered:**
+  - Rely solely on existing task systems without a daily focus ritual.
+  - Use an internal chat post or meeting cadence instead.
+  - Keep the concept informal rather than turning it into a repeatable practice.
+- **Rationale:** Daily WIN creates a lightweight but reliable way to define the most important work for the day. It helps connect planning to execution without introducing a heavy process.
+- **Implications for future work:**
+  - Daily WIN should be treated as part of the operating rhythm.
+  - Suggestions for planning, prioritization, or daily execution should fit into this cadence rather than bypass it.
