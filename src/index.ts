@@ -2,72 +2,75 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { McpAgent } from "agents/mcp";
 import { z } from "zod";
 
-// Define our MCP agent with tools
+const PORTFOLIO_FILES = [
+  "identity.md",
+  "role-and-responsibilities.md",
+  "current-projects.md",
+  "team-and-relationships.md",
+  "tools-and-systems.md",
+  "communication-style.md",
+  "goals-and-priorities.md",
+  "preferences-and-constraints.md",
+  "domain-knowledge.md",
+  "decision-log.md",
+];
+
 export class MyMCP extends McpAgent {
-	server = new McpServer({
-		name: "Authless Calculator",
-		version: "1.0.0",
-	});
+  server = new McpServer({
+    name: "Personal Context Portfolio",
+    version: "1.0.0",
+  });
 
-	async init() {
-		// Simple addition tool
-		this.server.registerTool(
-			"add",
-			{ inputSchema: { a: z.number(), b: z.number() } },
-			async ({ a, b }) => ({
-				content: [{ type: "text", text: String(a + b) }],
-			}),
-		);
+  async init() {
+    for (const filename of PORTFOLIO_FILES) {
+      const resourceName = filename.replace(/\.md$/i, "");
+      const uri = `portfolio://${filename}`;
 
-		// Calculator tool with multiple operations
-		this.server.registerTool(
-			"calculate",
-			{
-				inputSchema: {
-					operation: z.enum(["add", "subtract", "multiply", "divide"]),
-					a: z.number(),
-					b: z.number(),
-				},
-			},
-			async ({ operation, a, b }) => {
-				let result: number;
-				switch (operation) {
-					case "add":
-						result = a + b;
-						break;
-					case "subtract":
-						result = a - b;
-						break;
-					case "multiply":
-						result = a * b;
-						break;
-					case "divide":
-						if (b === 0)
-							return {
-								content: [
-									{
-										type: "text",
-										text: "Error: Cannot divide by zero",
-									},
-								],
-							};
-						result = a / b;
-						break;
-				}
-				return { content: [{ type: "text", text: String(result) }] };
-			},
-		);
-	}
+      this.server.registerResource(
+        resourceName,
+        uri,
+        async (_request, env) => {
+          const assetUrl = new URL(`/${filename}`, "https://assets.local");
+          const assetRequest = new Request(assetUrl.toString());
+          const response = await env.ASSETS.fetch(assetRequest);
+
+          if (!response.ok) {
+            return {
+              contents: [
+                {
+                  uri,
+                  mimeType: "text/plain",
+                  text: `File not found: ${filename}`,
+                },
+              ],
+            };
+          }
+
+          const text = await response.text();
+
+          return {
+            contents: [
+              {
+                uri,
+                mimeType: "text/markdown",
+                text,
+              },
+            ],
+          };
+        },
+      );
+    }
+  }
 }
 
 export default {
-	fetch(request: Request, env: Env, ctx: ExecutionContext) {
-		const url = new URL(request.url);
+  fetch(request: Request, env: Env, ctx: ExecutionContext) {
+    const url = new URL(request.url);
 
-		if (url.pathname === "/mcp") {
-			return MyMCP.serve("/mcp").fetch(request, env, ctx);
-		}
+    if (url.pathname === "/mcp") {
+      return MyMCP.serve("/mcp").fetch(request, env, ctx);
+    }
 
-		return new Response("Not found", { status: 404 });
-	},
+    return new Response("Not found", { status: 404 });
+  },
 };
