@@ -1,6 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { McpAgent } from "agents/mcp";
 import { z } from "zod";
+import { env } from "cloudflare:workers";
 
 const PORTFOLIO_FILES = [
   "identity.md",
@@ -13,7 +14,7 @@ const PORTFOLIO_FILES = [
   "preferences-and-constraints.md",
   "domain-knowledge.md",
   "decision-log.md",
-];
+] as const;
 
 export class MyMCP extends McpAgent {
   server = new McpServer({
@@ -45,24 +46,22 @@ export class MyMCP extends McpAgent {
       {
         description: "Read a Personal Context Portfolio markdown file by filename.",
         inputSchema: {
-          filename: z.enum([
-            "identity.md",
-            "role-and-responsibilities.md",
-            "current-projects.md",
-            "team-and-relationships.md",
-            "tools-and-systems.md",
-            "communication-style.md",
-            "goals-and-priorities.md",
-            "preferences-and-constraints.md",
-            "domain-knowledge.md",
-            "decision-log.md",
-          ]),
+          filename: z.enum(PORTFOLIO_FILES),
         },
       },
-      async ({ filename }, env) => {
-        const assetUrl = new URL(`/${filename}`, "https://assets.local");
-        const assetRequest = new Request(assetUrl.toString());
-        const response = await env.ASSETS.fetch(assetRequest);
+      async ({ filename }) => {
+        if (!env.ASSETS) {
+          return {
+            content: [
+              {
+                type: "text",
+                text: "ASSETS binding is not available at runtime.",
+              },
+            ],
+          };
+        }
+
+        const response = await env.ASSETS.fetch(`https://assets.local/${filename}`);
 
         if (!response.ok) {
           return {
