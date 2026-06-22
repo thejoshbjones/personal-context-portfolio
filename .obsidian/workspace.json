@@ -176,8 +176,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "015bda9ac4a307ce",
+  "active": "1643958e2cbdcc11",
   "lastOpenFiles": [
+    "wrangler.jsonc.bak",
     "00-Personal-Context-Portfolio/tools-and-systems.md",
     "00-Personal-Context-Portfolio/team-and-relationships.md",
     "00-Personal-Context-Portfolio/domain-knowledge.md",
@@ -203,7 +204,6 @@
     "01-Execution-Layer/2021-January.md",
     "01-Execution-Layer/2026-Prayer_List.md",
     "01-Execution-Layer/2026-Memory_Verses.md",
-    "01-Execution-Layer/2026-February.md",
     "00-Personal-Context-Portfolio",
     "01-Execution-Layer",
     "02-Social-Posts",
