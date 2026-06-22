@@ -267,20 +267,12 @@ function escapeRegExp(text: string) {
 }
 
 function firstMeaningfulLine(text: string) {
-  return text
-    .split("\n")
-    .map((s) => s.trim())
-    .find((s) => s.length > 0) || "";
-}
-
-function slugify(text: string) {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .trim()
-    .replace(/\s+/g, "-")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "");
+  return (
+    text
+      .split("\n")
+      .map((s) => s.trim())
+      .find((s) => s.length > 0) || ""
+  );
 }
 
 function titleCase(text: string) {
@@ -296,4 +288,519 @@ function canonicalRootPath(payload: CapturePayload, category: RootCategory) {
   return `${titleCase(candidate).replace(/[\/\\:*?"<>|]/g, "").trim()}.md`;
 }
 
-function inferCollectionSection(payload: CapturePayload) 
+function inferCollectionSection(payload: CapturePayload) {
+  const text = `${payload.title || ""}\n${payload.content}`.toLowerCase();
+  if (text.includes("1:1 down") || text.includes("direct report")) return "1:1 Down";
+  if (text.includes("1:1 up") || text.includes("manager") || text.includes("executive")) return "1:1 Up";
+  if (text.includes("integration")) return "Integrations";
+  return "Projects";
+}
+
+function looksLikeMeeting(text: string, payload: CapturePayload) {
+  const signals = ["meeting", "attendees", "participants", "agenda", "decisions", "follow-ups", "notes"];
+  return Boolean(payload.participants?.length) || signals.some((s) => text.includes(s));
+}
+
+function looksLikeTask(text: string) {
+  const verbs = ["follow up", "review", "schedule", "send", "build", "call", "prepare", "update"];
+  return verbs.some((v) => text.includes(v));
+}
+
+function looksLikeBridge(text: string) {
+  const work = ["security", "cloud", "integration", "datacenter", "platform"];
+  const ai = ["ai", "mcp", "agent", "workflow", "governance"];
+  return work.some((w) => text.includes(w)) && ai.some((a) => text.includes(a));
+}
+
+function inferCategory(text: string, map: Record<RootCategory, string[]>) {
+  for (const [category, keywords] of Object.entries(map) as [RootCategory, string[]][]) {
+    if (keywords.length && keywords.some((k) => text.includes(k))) return category;
+  }
+  return "Uncategorized";
+}
+
+function inferRelatedDomains(text: string) {
+  const domains = [
+    "Cyber Security",
+    "Cloud",
+    "Managed IT",
+    "DataCenter",
+    "Integrations",
+    "Finance",
+    "People",
+    "Platform Strategy",
+    "Vendor / Tooling",
+    "Governance",
+    "MCP",
+    "Workflow",
+    "Tools",
+    "Research",
+    "Principles",
+    "Automation",
+    "Local Models",
+  ];
+  return domains
+    .filter((d) => text.toLowerCase().includes(d.toLowerCase().replace(" / ", " ")))
+    .slice(0, 4);
+}
+
+function classify(payload: CapturePayload): Classification {
+  const text = `${payload.title || ""}\n${payload.content}`.toLowerCase();
+
+  if (looksLikeMeeting(text, payload)) {
+    return {
+      target: "collection",
+      confidence: "high",
+      reason: "meeting patterns matched",
+      section: inferCollectionSection(payload),
+    };
+  }
+
+  if (looksLikeTask(text)) {
+    return {
+      target: "daily-log",
+      confidence: "high",
+      reason: "task/action patterns matched",
+    };
+  }
+
+  if (looksLikeBridge(text)) {
+    return {
+      target: "digital-transformation",
+      confidence: "medium",
+      reason: "work and AI overlap detected",
+    };
+  }
+
+  const aiCategory = inferCategory(text, AI_KEYWORDS);
+  if (aiCategory !== "Uncategorized") {
+    return {
+      target: "root-note",
+      confidence: "medium",
+      reason: "AI durable-note pattern matched",
+      category: aiCategory,
+      relatedDomains: inferRelatedDomains(text),
+    };
+  }
+
+  const workCategory = inferCategory(text, WORK_KEYWORDS);
+  if (workCategory !== "Uncategorized") {
+    return {
+      target: "root-note",
+      confidence: "medium",
+      reason: "work durable-note pattern matched",
+      category: workCategory,
+      relatedDomains: inferRelatedDomains(text),
+    };
+  }
+
+  return {
+    target: "hold",
+    confidence: "low",
+    reason: "no dominant routing pattern found",
+    category: "Uncategorized",
+  };
+}
+
+function extractTasks(content: string) {
+  const lines = content.split("\n").map((l) => l.trim()).filter(Boolean);
+  const tasks = lines
+    .map((line) => line.replace(/^[-*]\s*/, "").replace(/^\[ \]\s*/, "").trim())
+    .filter((line) => /^(follow up|review|schedule|send|build|call|prepare|update)\b/i.test(line));
+  return [...new Set(tasks)];
+}
+
+function appendDailyTasks(existing: string, iso: string, tasks: string[]) {
+  if (!tasks.length) return existing;
+  const heading = `## ${dateOnly(iso)}`;
+  const taskLines = tasks.map((t) => `- [ ] ${t}`);
+  const current = existing || "";
+
+  if (!current.includes(heading)) {
+    const prefix = current.trim().length ? `${current.trimEnd()}\n\n` : "";
+    return `${prefix}${heading}\n\n${taskLines.join("\n")}\n`;
+  }
+
+  const sectionRegex = new RegExp(`(${escapeRegExp(heading)}\\n\\n)([\\s\\S]*?)(?=\\n## |$)`);
+  const match = current.match(sectionRegex);
+  if (!match) return current;
+
+  const existingSection = match[2];
+  const newTasks = taskLines.filter((task) => !existingSection.includes(task));
+  if (!newTasks.length) return current;
+
+  const replacement = `${match[1]}${existingSection.trimEnd()}\n${newTasks.join("\n")}\n`;
+  return current.replace(sectionRegex, replacement);
+}
+
+function buildCollectionBlock(payload: CapturePayload, iso: string) {
+  const title = payload.title || payload.participants?.join(", ") || "Meeting Note";
+  return [
+    `### ${dateOnly(iso)} — ${title}`,
+    "",
+    "- Context:",
+    "- Key points:",
+    "- Decisions:",
+    "- Follow-ups:",
+    "",
+    payload.content.trim(),
+    "",
+  ].join("\n");
+}
+
+function appendCollectionBlock(existing: string, section: string, block: string, iso: string) {
+  const heading = `## ${section}`;
+  const title = `# ${year(new Date(iso))} Collection`;
+  const current = existing.trim().length ? existing : `${title}\n\n`;
+  if (current.includes(block.trim())) return current;
+
+  if (!current.includes(heading)) {
+    return `${current.trimEnd()}\n\n${heading}\n\n${block}`;
+  }
+
+  const sectionRegex = new RegExp(`(${escapeRegExp(heading)}\\n\\n)([\\s\\S]*?)(?=\\n## |$)`);
+  const match = current.match(sectionRegex);
+  if (!match) return `${current.trimEnd()}\n\n${block}`;
+
+  const replacement = `${match[1]}${block}\n${match[2]}`;
+  return current.replace(sectionRegex, replacement);
+}
+
+function buildRootNote(payload: CapturePayload, category: RootCategory, relatedDomains: string[]) {
+  const title = payload.title || titleCase(firstMeaningfulLine(payload.content) || `${category} Note`);
+  return [
+    `# ${title}`,
+    "",
+    `category: ${category}`,
+    `related-domains: [${relatedDomains.join(", ")}]`,
+    "",
+    "## Summary",
+    "",
+    summarize(payload.content),
+    "",
+    "## Current state",
+    "",
+    "## Key constraints",
+    "",
+    "## Decisions / implications",
+    "",
+    "## Sources / references",
+    "",
+  ].join("\n");
+}
+
+function mergeDigitalTransformation(existing: string, payload: CapturePayload) {
+  const current = existing.trim().length
+    ? existing
+    : "# Digital Transformation\n\n## Active bridges\n";
+  const title = payload.title || firstMeaningfulLine(payload.content) || "Bridge Note";
+  const block = [
+    `### ${title}`,
+    "",
+    "- Work-side implication:",
+    "- System-side implication:",
+    "- Decision:",
+    "",
+    payload.content.trim(),
+    "",
+  ].join("\n");
+  if (current.includes(block.trim())) return current;
+  return `${current.trimEnd()}\n\n${block}`;
+}
+
+function asText(content: string) {
+  return {
+    content: [{ type: "text" as const, text: content }],
+  };
+}
+
+function asJson(obj: unknown) {
+  return {
+    content: [{ type: "text" as const, text: JSON.stringify(obj, null, 2) }],
+  };
+}
+
+export class MyMCP extends McpAgent<Env> {
+  server = new McpServer({
+    name: "Personal Context Portfolio",
+    version: "2.0.0",
+  });
+
+  async init() {
+    this.server.registerTool(
+      "list_portfolio_files",
+      {
+        description: "List the available Personal Context Portfolio markdown files.",
+        inputSchema: {},
+      },
+      async () => asText(PORTFOLIO_FILES.join("\n")),
+    );
+
+    this.server.registerTool(
+      "get_portfolio_file",
+      {
+        description: "Read a Personal Context Portfolio markdown file by filename from GitHub.",
+        inputSchema: {
+          filename: z.enum(PORTFOLIO_FILES),
+        },
+      },
+      async ({ filename }) => {
+        const path = `${PORTFOLIO_DIR}/${filename}`;
+        const file = await ghGetFile(this.env, path);
+        return asText(file.content);
+      },
+    );
+
+    this.server.registerTool(
+      "list_execution_files",
+      {
+        description: "List files in the execution layer folder.",
+        inputSchema: {},
+      },
+      async () => {
+        const items = await ghListDir(this.env, EXECUTION_DIR);
+        return asText(
+          items
+            .filter((i) => i.type === "file")
+            .map((i) => i.name)
+            .join("\n"),
+        );
+      },
+    );
+
+    this.server.registerTool(
+      "get_file",
+      {
+        description: "Read any markdown file in the vault by repo-relative path.",
+        inputSchema: {
+          path: z.string(),
+        },
+      },
+      async ({ path }) => {
+        const file = await ghGetFile(this.env, path);
+        return asText(file.content);
+      },
+    );
+
+    this.server.registerTool(
+      "route_capture",
+      {
+        description:
+          "Classify and route a captured note into the execution layer, collection file, Digital Transformation, or a flat root durable note.",
+        inputSchema: {
+          source: z.enum(["krisp", "manual", "agent", "meeting", "email"]),
+          timestamp: z.string().optional(),
+          title: z.string().optional(),
+          participants: z.array(z.string()).optional(),
+          tags: z.array(z.string()).optional(),
+          content: z.string(),
+          links: z.array(z.string()).optional(),
+          apply: z.boolean().default(true),
+        },
+      },
+      async ({ apply, ...payload }) => {
+        const iso = inferTimestamp(payload.timestamp);
+        const classification = classify(payload);
+
+        if (!apply) {
+          return asJson({ mode: "preview", classification });
+        }
+
+        if (classification.target === "hold") {
+          return asJson({ action: "hold", classification });
+        }
+
+        if (classification.target === "daily-log") {
+          const fileName = inferMonthFile(iso);
+          const path = `${EXECUTION_DIR}/${fileName}`;
+          const existing = await ghGetFileOrNull(this.env, path);
+          const updated = appendDailyTasks(existing?.content || "", iso, extractTasks(payload.content));
+          if ((existing?.content || "") === updated) {
+            return asJson({ action: "noop", path, classification, reason: "no new tasks" });
+          }
+          await ghPutFile(
+            this.env,
+            path,
+            updated,
+            `brain: append tasks to ${fileName}`,
+            existing?.sha,
+          );
+          return asJson({ action: "updated", path, classification });
+        }
+
+        if (classification.target === "collection") {
+          const fileName = inferCollectionFile(iso);
+          const path = `${EXECUTION_DIR}/${fileName}`;
+          const existing = await ghGetFileOrNull(this.env, path);
+          const block = buildCollectionBlock(payload, iso);
+          const updated = appendCollectionBlock(
+            existing?.content || "",
+            classification.section || "Projects",
+            block,
+            iso,
+          );
+          if ((existing?.content || "") === updated) {
+            return asJson({ action: "noop", path, classification, reason: "duplicate meeting block" });
+          }
+          await ghPutFile(
+            this.env,
+            path,
+            updated,
+            `brain: append collection note to ${fileName}`,
+            existing?.sha,
+          );
+          return asJson({ action: "updated", path, classification });
+        }
+
+        if (classification.target === "digital-transformation") {
+          const existing = await ghGetFileOrNull(this.env, DIGITAL_TRANSFORMATION_FILE);
+          const updated = mergeDigitalTransformation(existing?.content || "", payload);
+          if ((existing?.content || "") === updated) {
+            return asJson({ action: "noop", path: DIGITAL_TRANSFORMATION_FILE, classification });
+          }
+          await ghPutFile(
+            this.env,
+            DIGITAL_TRANSFORMATION_FILE,
+            updated,
+            "brain: update Digital Transformation bridge",
+            existing?.sha,
+          );
+          return asJson({ action: "updated", path: DIGITAL_TRANSFORMATION_FILE, classification });
+        }
+
+        if (classification.target === "root-note") {
+          const category = classification.category || "Uncategorized";
+          const path = canonicalRootPath(payload, category);
+          const existing = await ghGetFileOrNull(this.env, path);
+          if (existing) {
+            return asJson({
+              action: "noop",
+              path,
+              classification,
+              reason: "root note already exists; manual merge recommended",
+            });
+          }
+          const content = buildRootNote(payload, category, classification.relatedDomains || []);
+          await ghPutFile(
+            this.env,
+            path,
+            content,
+            `brain: create root note ${path}`,
+          );
+          return asJson({ action: "created", path, classification });
+        }
+
+        return asJson({ action: "hold", classification });
+      },
+    );
+
+    this.server.registerTool(
+      "append_tasks",
+      {
+        description: "Append checkbox tasks into the active execution-layer monthly note.",
+        inputSchema: {
+          timestamp: z.string().optional(),
+          content: z.string(),
+        },
+      },
+      async ({ timestamp, content }) => {
+        const iso = inferTimestamp(timestamp);
+        const fileName = inferMonthFile(iso);
+        const path = `${EXECUTION_DIR}/${fileName}`;
+        const existing = await ghGetFileOrNull(this.env, path);
+        const updated = appendDailyTasks(existing?.content || "", iso, extractTasks(content));
+        await ghPutFile(
+          this.env,
+          path,
+          updated,
+          `brain: append tasks to ${fileName}`,
+          existing?.sha,
+        );
+        return asJson({ action: "updated", path });
+      },
+    );
+
+    this.server.registerTool(
+      "append_meeting_note",
+      {
+        description: "Append a meeting note into the yearly collection file.",
+        inputSchema: {
+          timestamp: z.string().optional(),
+          title: z.string().optional(),
+          participants: z.array(z.string()).optional(),
+          content: z.string(),
+          section: z.string().optional(),
+        },
+      },
+      async ({ timestamp, title, participants, content, section }) => {
+        const iso = inferTimestamp(timestamp);
+        const payload: CapturePayload = {
+          source: "meeting",
+          timestamp: iso,
+          title,
+          participants,
+          content,
+        };
+        const fileName = inferCollectionFile(iso);
+        const path = `${EXECUTION_DIR}/${fileName}`;
+        const existing = await ghGetFileOrNull(this.env, path);
+        const block = buildCollectionBlock(payload, iso);
+        const updated = appendCollectionBlock(
+          existing?.content || "",
+          section || inferCollectionSection(payload),
+          block,
+          iso,
+        );
+        await ghPutFile(
+          this.env,
+          path,
+          updated,
+          `brain: append collection note to ${fileName}`,
+          existing?.sha,
+        );
+        return asJson({ action: "updated", path });
+      },
+    );
+  }
+}
+
+function unauthorized() {
+  return new Response("Unauthorized", {
+    status: 401,
+    headers: {
+      "content-type": "text/plain; charset=utf-8",
+      "WWW-Authenticate": 'Bearer realm="personal-context-portfolio"',
+    },
+  });
+}
+
+export default {
+  fetch(request: Request, env: Env, ctx: ExecutionContext) {
+    const url = new URL(request.url);
+
+    if (url.pathname === "/mcp") {
+      const authHeader = request.headers.get("Authorization");
+      const expectedAuth = `Bearer ${env.API_TOKEN}`;
+
+      if (!env.API_TOKEN) {
+        return new Response("Missing API_TOKEN secret", { status: 500 });
+      }
+
+      if (authHeader !== expectedAuth) {
+        return unauthorized();
+      }
+
+      return MyMCP.serve("/mcp").fetch(request, env, ctx);
+    }
+
+    if (url.pathname === "/health") {
+      return Response.json({
+        ok: true,
+        service: "personal-context-portfolio",
+        transport: "mcp",
+      });
+    }
+
+    return new Response("Not found", { status: 404 });
+  },
+};
