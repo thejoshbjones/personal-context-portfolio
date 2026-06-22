@@ -761,6 +761,26 @@ export class MyMCP extends McpAgent<Env> {
         return asJson({ action: "updated", path });
       },
     );
+    
+    this.server.registerTool(
+      "list_directory",
+      {
+        description: "List files and folders for any repo-relative directory path.",
+        inputSchema: {
+          path: z.string(),
+        },
+      },
+      async ({ path }) => {
+        const items = await ghListDir(this.env, path);
+        return asJson(
+          items.map((i) => ({
+            type: i.type,
+            name: i.name,
+            path: i.path,
+          })),
+        );
+      },
+    );
   }
 }
 
