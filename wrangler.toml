@@ -3,6 +3,11 @@ main = "src/index.ts"
 compatibility_date = "2026-06-08"
 compatibility_flags = ["nodejs_compat"]
 
+ [vars]
+ GITHUB_OWNER = "thejoshbjones"
+ GITHUB_REPO = "personal-context-portfolio"
+ GITHUB_BRANCH = "main"
+
 [[durable_objects.bindings]]
 name = "MCP_OBJECT"
 class_name = "MyMCP"
