@@ -796,7 +796,7 @@ function unauthorized() {
 
 export default {
   fetch(request: Request, env: Env, ctx: ExecutionContext) {
-    const url = new URL(request.url);
+    const url = new URL(request.url, "https://placeholder.local");
 
     if (url.pathname === "/mcp") {
       const authHeader = request.headers.get("Authorization");
