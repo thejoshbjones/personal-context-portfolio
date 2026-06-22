@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Execution-Layer/2026-Collections.md",
+                "file": "00-Personal-Context-Portfolio/communication-style.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-Collections"
+              "title": "communication-style"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "015bda9ac4a307ce",
   "lastOpenFiles": [
+    "01-Execution-Layer/2026-Collections.md",
     "01-Execution-Layer/2026-Index.md",
     "wrangler.jsonc.bak",
     "00-Personal-Context-Portfolio/tools-and-systems.md",
@@ -208,7 +209,6 @@
     "01-Execution-Layer/2026-God_Thoughts.md",
     "01-Execution-Layer/2021-January.md",
     "01-Execution-Layer/2026-Prayer_List.md",
-    "01-Execution-Layer/2026-Memory_Verses.md",
     "00-Personal-Context-Portfolio",
     "01-Execution-Layer",
     "02-Social-Posts",
