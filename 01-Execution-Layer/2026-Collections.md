@@ -106,29 +106,7 @@
 - Hatz? Assurances __(uncertain reading)__
 
   
-## Adler Health Finance (p.246)
-
-- 1/15/26
-
-- Likely - 168.17
-
-- Elevate
-
-- 258.92
-
-- 162.15
-
-- Totals / grouped figures: 330.32, 258.92, 598.24
-
-- 4/2/26
-
-- 712.50
-
-- 1/19/26? + Penetration __(uncertain reading)__
-
-- 122.56
-
-- 155.86
+## Son Health Finance (p.246)
 
   
 ## GW NA Prompt Tracking (pp.232-233, 235)
@@ -159,25 +137,7 @@ These pages appear to be timestamped tracking logs with yes/no markers and count
 
 - Final visible summary lines include approximate totals such as `30 prompt / 24 ack'd - 39 / 131`, `33 prompt / 25 ack'd - 40 / 132` __(partially uncertain)__
 
-## Caulder Letter (p.229)
-
-
-This page is a personal letter-style reflection. Only the clearly legible portions are included below.
-
-
-- “I want you to know above all things, two God loves you and has only good things in mind for you.”
-
-- “I want you to know beyond all doubts that I love you. I will always love you …”
-
-- “No matter what happens we will always love you and we will always work to be a safe place for you.”
-
-- Reflection on separation in relationship, wounds, repair, and the challenge of rebuilding trust.
-
-- Reflection that choices, while perhaps intentional, carried weight and impact.
-
-- Emphasis on truth, honesty, not hiding, and not protecting by concealment.
-
-- Closing thought suggests support is available, but personal accountability remains necessary.
+## Son Letter (p.229)
 
 ## AI Fear Problem (p.235)
 
@@ -372,13 +332,3 @@ These pages show a system diagram for “Nova Wafers.” The clearer inked versi
 - Legible names include: Shem, Arpachshad, Shelah, Eber, Peleg, Reu, Serug, Nahor, Terah, Abram, Isaac, Jacob
 
 - Notes at right margin appear to include names such as Lamech, Shelah, Peleg, Reuel, Nahor, Perez? __(partially uncertain)__
-
-## Blank / Low-Content Pages (pp.230-231, 242)
-
-The following pages are blank or contain only bleed-through / no additional legible notes worth transcribing:
-
-- Blank page following the Cauldar letter
-
-- Left-side blank page adjacent to GW tracking
-
-- Reverse-side bleed-through / very faint content on page 242
