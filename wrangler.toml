@@ -1,7 +1,12 @@
 name = "personalcontextportfolio"
-main = "worker.js"
+main = "src/index.ts"
 compatibility_date = "2026-06-08"
+compatibility_flags = ["nodejs_compat"]
 
-[assets]
-directory = "./portfolio"
-binding = "ASSETS"
+[[durable_objects.bindings]]
+name = "MCP_OBJECT"
+class_name = "MyMCP"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["MyMCP"]

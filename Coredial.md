@@ -1,0 +1,13 @@
+- ![[Pasted image 20260305161251.png]]
+- ![[Pasted image 20260305161304.png]]
+- ![[Pasted image 20260305161332.png]]
+- ![[Pasted image 20260305161407.png]]
+- there are times that a customer wouldn't show up in resources but would show up in Customers
+	- resources communicate who the SIP provider is. This is truly and VOIP system
+- Customers with * means that we're only billing through CoreDial (migrated to embrace)
+- Q -> are these all billed through revtel?
+- CoreDial can do usage reports
+- Embrace requires datagate and then reporting back to coredial or CW
+- Numbers list would be helpful and customer list would be helpful
+- ![[Pasted image 20260305162218.png]]
+- 

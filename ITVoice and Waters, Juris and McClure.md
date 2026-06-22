@@ -1,0 +1,84 @@
+
+
+- 10/17/25
+	- Email Chain 1
+		- Renee reached out to work towards remediation of issues that were communicated.
+- 10/20/25
+	- Email Chain 1
+		- Katelyn responded to Renee's email from the 17th. 
+		- Renee responded back and confirmed about Ben going on-site the 21st.
+- 10/27/25
+	- Email Chain 2
+		- Dr. Davidson communicated with Josh Crago (AM) that she would like to begin the cancellation process.
+- 10/28/25
+	- Email Chain 2
+		- Dereck Wyatt sent the cancelation form to Dr. Davidson.
+		- Dr. Davidson asked Dereck for confirmation as to if the form is preliminary
+		- Dereck responded that the buyout information will be send post cancellation form completion.
+- 10/30/25
+	- Email Chain 3
+		- Renee Followed up with Dr. Davidson about specific ticket from 10/27/25. Related to Eagle Soft. There was an initial misunderstanding by a lower level engineer. Renee stepped in, sent the work to the correct engineer who helped resolve the situation. She reiterated her understanding of any frustration and apologized for this. She asked for confirmation of full resolution, expressed concern for the customer business and reiterated that she's happy to personally attend to any issues they're having.
+		- Katelyn responded and reiterated that the process to get this to the correct resource (Ben) cost them 3 hours of their day. She also confirmed that their user did volunteer to call the software vendor.
+		- Renee responded with understanding the frustration.
+- 11/3/26
+	- Email Chain 4
+		- Renee followed up with Dr. Davidson about a situation where a workstation at another office was turned off. Nothing specifically broken so much as workstation that can be turned off was servicing a mission critical function.
+- 11/11/26
+	- Email Chain 2
+		- Dr. Davidson responded to Derreck asking for follow up as she hadn't received a response from the form.
+		- Candice responded to Dr. Davidson with the buyout ammount of $103,961.83.
+		- Dr. Davidson responded requesting we reconsider the termination fee stating that they are not getting the services they are paying for.
+		- Candice responded that use understands the concerns about the termination fee and asked if Dr. Davidson could send an amount that Dr. Davidson believed would be fair for Candice to present to the management team.
+- 12/2/25
+	- Email Chain 5
+		- Renee reached out to Dr. Davidson about a server down issue. On-Prem server was off and James resolved it and the team adjusted their recurring functions to be sure it is caught in the future. (Confirmed changes were enacted and operational issue was remediated based on fact patern of notes in ticket 296824 on 12/23/25 that server had rebooted previously on 12/19/25)
+- 1/2/26
+	- Termination Letter was sent from Juris
+- 1/14/26
+	- Email Chain 6
+		- Renee Communicated with Dr. Davidson about the offboarding process and requesting approval to turn down services and that the buyout covers all work needed for this function.
+		- Dr. Davidson forwarded this message to Katelyn who responded to Renee.
+- 1/20/26
+	-  Email Chain 6
+		- Katelyn responded to Renee that Dr. Davidson had a letter sent to Renee (IT Voice) from her lawyer. Katelyn subsequently asked for a timeline to move forward with the new IT company.
+- 1/26/26
+	-  Email Chain 6
+		- Renee offered to begin discussions with Mike from the new IT company and asked for his information.
+		- Katelyn sent over information for New IT company.
+- 1/27/26
+	-  Email Chain 6
+		- Renee reiterated the request to confirm approval for turning down services
+- 1/27/26
+	- Email Chain 7
+		- Dr. Davidson sent email to Renee communicating that even though they haven't off-boarded, whomever they spoke to that morning would not help them.
+		- Renee responded that she would have a separate tech reach out to Deana. Louis Esparza was engaged as a tech and was able to remediate the situation.
+- 2/3/26
+	- Email Chain 8/9
+		- Mike from the new IT company emailed Renee asking for a call to discuss the transition.
+- 2/4/26
+	- Email Chain 8
+		- Renee responded to Mike communicating that she agrees with the importance of transitioning services in an ordered fashion to not create an outage.
+- 2/6/26
+	- Email Chain 9
+		- Renee updated Mike that she is holding due to internal procedures but wanted to update him so he wasn't left hanging.
+		- Mike responded to this communicating thanks for letting him know.
+
+
+Points of email:
+IT Voice is contracted to provide:
+- leased firewalls for both Water's Davidson's Main and Stillwell office locations which is described as "Hosted Voice and Equipment"
+- User Support for 13 users and the workstations utilized by those 13 users
+	- Operating System Patching on the subsequent workstations
+	- An Antivirus/EDR solution on the subsequent workstations
+	- updates to said AV/EDR solution on the subsequent workstations
+- Support for a single server that correspond to subpoints listed above for the workstations
+- Office 365 licensing and support for the Office 365 suite
+- Server Backup and Disaster Recovery Solution
+
+Stated Items of breach and responses:
+- 99.9% uptime for hosted systems during operational hours
+	- The first sentence of pg 3. 5th paragraph clarifies what we mean by hosted systems as systems not located on premise by the statement "All Hosted and Cloud based services only include setup in the cloud and does not include on premise installation..."
+	- The customer is not utilizing services hosted by IT Voice as the firewalls defined in the "Hosted Voice and Equipment" section are leased physical equipment located at the customers premises that should not be interpreted as hosted service since they fall underneath the category of "Equipment" in the term "Hosted Voice and Equipment".
+- All customer data to be backed up nightly
+	- In the agreement this is stated as "All customer data on our servers is backed up each night." Based on the context "our" is IT Voice. Because we are not maintaining any of this customer's data in systems that are not on-premise and for which we host ourselves, this statement does not apply to this customer.
+	- In the event that, by referencing the statement towards backups, the other party is intending to communicate that on-premise backups have not been performed adequately, we have logs referencing succesful backups alongside tickets logged for 2 events in December where backups did not succeed and for which we appropriately responded and remediated the failures during the next business day from which they occurred. (Ticket #'s 296824 and 297234)

@@ -1,0 +1,6 @@
+- Team
+	- Pat Burns -> Owner and Approver
+	- John Fairchild -> Netsuite Admin and Accounting Manager
+	- Bea Christopher -> Helping take over (champion?)
+	- TBR noted Chris Lukens as IT Manager; she really handles AP (works for John?) and her name might be misspelled (Chrys or Chris?)
+- 

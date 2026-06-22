@@ -1,0 +1,119 @@
+# Index
+
+- Future Log — pp.5–6
+- [[2021-Future_Log]]
+- Instructions — p.239
+- [[2021-Key]]
+- [[2018–2019]]
+- [[2020-Index]]
+- [[2022-Index]]
+- [[2023-Index]]
+- [[2024-Index]]
+- [[2025-Index]]
+- [[2026-Index]]
+
+## Collections & Back Pages
+
+- Prayer List — p.238
+- January Projects Schedule — pp.229–230
+- January Billing Questions — p.228
+- Summary Housework — p.227
+- Identity in Christ — p.226
+- Journal of Factor Prep — p.225
+- Quarterly Q1 — p.224
+- 40k Plan — p.223
+- Coaching Call w/ Harry — p.222
+- Section Leader Meeting Notes — p.221
+- Foster Quarter — p.220
+- DISC — p.219
+- Note to Estevan — pp.219–217
+- Summary P.O. Equipping — p.216
+- God Thoughts (S-215; B-214; A-213–212; S-211; L-210; 168) — pp.215–210, 168
+- Emily S. — p.209
+- Summary w/ Zone Checking — pp.209–207
+- 40 Days of Purpose — p.206
+- Evolve Q1 — pp.205–202
+- Feedback from Jason — p.201
+- Antioch Phone — p.200
+- Sobes — p.199
+- Customer Lifetime Value / Acquisition Cost — p.198
+- Brandon Hare Couple in Business — p.197
+- Sobes SP-WAN — p.196
+- Green Cloud — p.195
+- March Sections Meeting — p.194
+- Q2 Offsites — p.193
+- BXB — p.192
+- Contest Science — p.191
+- Lila/Buriani — p.190
+- MAF SharePoint — p.189
+- More Zone Meeting Planning — p.188
+- DSOT Partner Relationship — p.187
+- Rob Kennedy — p.186
+- Season 31:1 — p.185
+- Post-June P.O. Equipping — p.184
+- CTN Call — p.183
+- Faith Tech Texas Billing — pp.182–181
+- DBS Topics for Business — p.180
+- 1:1 w/ Brian — p.179
+- Brain Cycles — pp.178–177
+- ACC Family Night — p.176
+- RV Finances — p.175
+- Soul Calculator Needs — p.174
+- Faith Tech Sync-Up (Juve) — p.173
+- NOC Notes — p.172
+- LCU Billing Issues — p.171
+- Faith Tech Fly Meeting — p.170
+- Emotional Health Dot Assessment — p.169
+- PDE Coaching — p.167
+- Q3 Offsite — p.166
+- Essentium Offsite w/ Many — p.165
+- Prophetic — p.164
+- Micah Coaching — p.161
+- Farkle — p.162
+- Summit — p.136
+- Zone Meeting — p.135
+- F.T. Texas Trip — pp.134–133
+- Ideas — p.132
+- Meet w/ Doug — p.131
+- Tier Structure — p.130
+- Barnhill Strategy — p.129
+- Scoping — pp.128–127
+- Essentium Offsite — p.126
+- Post-Trip Sync-Up — p.125
+- Zone Meeting (Zare) — p.124
+- Buckets — p.123
+- Practicing the Way Project — p.122
+- Don — p.121
+- Basics of Ritz Carlton — pp.120–119
+- 3 Steps of Service — p.118
+- James McKeown Summary — p.117
+- Morning Routine — p.115
+- New Year Exercises — p.114
+- [[2021-Collections]]
+
+## Front / Daily & Monthly
+
+- [[2021-January]]
+- January Overview — pp.7–8
+- January Days — pp.9–12
+- [[2021-February]]
+- [[2021-March]]
+- March Overview — pp.13–14
+- [[2021-April]]
+- April Overview — pp.15–16
+- April Pages — pp.17–21
+- [[2021-May]]
+- May Overview — pp.22–23
+- May Days — p.24 and following
+- Timeline Overview — pp.28–29
+- [[2021-June]]
+- June Days — pp.30–35
+- [[2021-July]]
+- July Overview — pp.36–38
+- July Days — pp.38–42
+- [[2021-August]]
+- [[2021-September]]
+- [[2021-October]]
+- [[2021-November]]
+- [[2021-December]]
+- (Additional daily/monthly pages as they appear in sequence)

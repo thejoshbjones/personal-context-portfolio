@@ -1,0 +1,114 @@
+**Plains State Bank**
+- Agreement Timeline
+	- **11 / 07 / 2022** _(Term: 1 year)_
+		- IT Security Training — $3600
+	- **11 / 07 / 2022** _(Term: 2 years)_
+	    - Information Technology Audit — $15,675.00
+	    - Vulnerability Assessment  — $2,375.00
+	    - Penetration Testing — $3,135.00
+	    - Social Engineering - Standard — $1,187.00
+	    - Information Technology Security Training Class — $1,600.00
+	- **02 / 01 / 2023** _(Term: 2 years)_
+	    - NACHA Audit — $6,800.00
+	    - BSA / AML / OFAC Audit — $7,500.00
+	    - Deposit Operations Compliance Audit — $6,200.00
+	    - Fair Lending Compliance Audit — $5,100.00
+	    - Lending Compliance Audit — $6,400.00
+	- **08 / 14 / 2023** _(Term: 1 year)_
+	    - Information Technology Risk Assessment— $8,000.00
+	    - Vulnerability Assessment — $5,400.00%%(which price do we bill at?)%%
+	    - Pen Testing — $6,500.00 %% (which price do we bill at?) %%
+	- **10 / 22 / 2024** _(Term: 2 years / 24 months; agreement effective date 01 / 01 / 2025)_
+	    - Information Technology Risk Assessment — $15,675.00
+	    - Vulnerability Assessment — $2,375.00
+	    - Pen Testing  — $3,135.00
+	    - Social Engineering - Standard — $1,187.00
+	    - Information Technology Security Training Class — $1,600.00
+	- **11 / 08 / 2024** _(Term: 2 years)_
+	    - NACHA Audit — $6,800.00
+	    - BSA / AML / OFAC Audit — $7,500.00
+	    - Deposit Operations Compliance Audit — $6,200.00
+	    - Fair Lending Compliance Audit — $5,100.00
+	    - Lending Compliance Audit — $6,400.00
+- Agreements
+	- 10/22/2024
+		- 24 months
+		- $23,972
+		- Scope
+			- IT Security Training Class -> $1600 Annually -> Billed Monthly
+			- Social Engineering -> $1187 Annually -> Billed Monthly
+			- Pen Testing -> $3135 Bi-Annually -> Billed Monthly
+			- Internal Vulnerability Assessment -> $2375 Bi-Annually -> Billed Monthly
+			- Information Technology Risk Assessment -> $15675 Annually -> Billed Monthly
+	- 11/8/2024
+		- 24 months
+		- $32000
+		- Scope
+			- BSA/AML/OFAC Audits -> $7500 Annually
+			- Deposit Operations Compliance Audit -> $6200
+			- Fair Lending Compliance Audit -> $5100
+			- Lending Compliance Audit -> $6400
+			- NACHA Audit -> $6800
+Citizens Bank of Crockett
+- Agreements
+	- 09/11/2019
+		- 36 months
+		- $17874 - Annually
+		- Scope
+			- Information Technology Audit -> $10800
+			- Social Engineering -> $1026
+			- NACHA -> $6048
+	- 04/13/2020
+		- 12 months
+		- $34400 - Annually
+		- Scope
+			- Information Technology Audit -> $24600
+			- Internal Vulnerability Assessment -> $1700
+			- Pen Testing -> $3500
+			- Pen Testing Wireless -> $2200
+			- Social Engineering -> $2400
+	- 04/27/2021
+		- 12 Months
+		- $36800 - Annually
+			- Information Technology Audit -> $24600
+			- Internal Vulnerability Assessment -> $2200
+			- Pen Testing -> $3000
+			- Pen Testing Wireless -> $3000
+			- Social Engineering -> $2200
+	- 06/23/2022
+		- 1 Time
+			- Project
+				- Custom RSAT Review - $2500
+		- 36 Months
+			- 36 Months
+			- $22855 - Annually
+				-  Information Technology Audit -> $13800
+				- Social Engineering -> $1325
+				- NACHA -> $7730
+InBank
+- Agreements
+	- 12/07/2022
+		- 24 Months
+		- $11700 -> Annually
+		- Scope
+			- External Vulnerability Assessment -> $5300
+			- Internal Vulnerability Assessment -> $5200
+			- Social Engineering -> $1200
+Citizens Bank of Clovis
+- Agreements
+	- 02/03/2021
+		- 36 Months
+		- $15930 -> Annually
+		- Scope
+			- Information Technology Audit -> $13050
+			- Internal Vulnerability Assessment -> $1800
+			- Social Engineering -> $1080
+	- 12/07/2023
+		- 36 Months
+		- $17700 -> Annually
+		- Scope
+			- Information Technology Audit -> $14500
+			- Internal Vulnerability Assessment -> $2000
+			- Social Engineering -> $1200
+
+
