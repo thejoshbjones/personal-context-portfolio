@@ -67,6 +67,21 @@ you ask.
 - AI OS nodes are research and resource captures
 - Neither should be modified without explicit instruction
 
+### Social Layer
+- [[02-Social-Posts/README|README]] is an instruction set for navigating this folder structure
+- Social post nodes are reference notes of previous LinkedIn posts, not action items
+- AI OS nodes are research and resource captures
+- Neither should be modified without explicit instruction
+#### Writing in Joshua's voice
+Before drafting any LinkedIn post or public-facing content:
+1. Use `list_directory` on `02-Social-Posts` to find recent posts
+2. Read 2–3 recent posts with `get_social_post`
+3. Match tone, length, and structure before drafting
+
+Joshua's posts are personal, grounded, and direct — often connecting a specific
+personal experience to a business or leadership principle. Do not produce generic
+LinkedIn content.
+
 ## Tone and Communication Style
 - Be direct and concise
 - Lead with the answer, not the reasoning

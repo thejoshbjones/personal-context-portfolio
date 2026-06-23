@@ -781,6 +781,35 @@ export class MyMCP extends McpAgent<Env> {
         );
       },
     );
+
+    this.server.tool(
+      "get_social_post",
+      "Get a LinkedIn post by date. Use format M-D-YY (example: 6-23-26). If there were multiple posts that day, use instance: 2 for the second.",
+      {
+        date: z.string().describe("Date in M-D-YY format, e.g. 6-23-26"),
+        instance: z.number().optional().describe("Post number if multiple on same day, e.g. 2")
+      },
+      async ({ date, instance }) => {
+        const filename = instance ? `${date}-${instance}.md` : `${date}.md`;
+        const response = await fetch(
+          `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/contents/02-Social-Posts/${filename}`,
+          {
+            headers: {
+              Authorization: `Bearer ${env.GITHUB_TOKEN}`,
+              Accept: "application/vnd.github.v3.raw",
+              "User-Agent": "personal-context-portfolio-mcp",
+            },
+          }
+        );
+        if (!response.ok) {
+          return { content: [{ type: "text", text: `No post found for ${filename}` }] };
+        }
+        const text = await response.text();
+        return { content: [{ type: "text", text }] };
+      }
+    );
+
+  } 
   }
 }
 
