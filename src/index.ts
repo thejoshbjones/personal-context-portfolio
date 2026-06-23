@@ -811,7 +811,6 @@ export class MyMCP extends McpAgent<Env> {
 
   } 
   }
-}
 
 function unauthorized() {
   return new Response("Unauthorized", {
