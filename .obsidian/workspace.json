@@ -11,10 +11,10 @@
             "id": "f65fb083a148a7e3",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -178,8 +178,9 @@
   },
   "active": "f65fb083a148a7e3",
   "lastOpenFiles": [
-    "AGENTS.md",
     "ai-agent-instructions.md",
+    "02-Social-Posts/README.md",
+    "AGENTS.md",
     "00-Personal-Context-Portfolio/communication-style.md",
     "01-Execution-Layer/2026-Collections.md",
     "01-Execution-Layer/2026-Index.md",
@@ -204,7 +205,6 @@
     "01-Execution-Layer/2026-July.md",
     "01-Execution-Layer/2026-June.md",
     "01-Execution-Layer/2026-August.md",
-    "01-Execution-Layer/2026-God_Thoughts.md",
     "00-Personal-Context-Portfolio",
     "01-Execution-Layer",
     "02-Social-Posts",

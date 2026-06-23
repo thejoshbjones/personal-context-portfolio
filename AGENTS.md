@@ -139,7 +139,7 @@ A flat archive of published LinkedIn posts stored in `02-Social-Posts/`.
 - Making any assumption about an open task being complete
 
 ## Priority Files for Context
-1. [[agent-entry]] — this file
+1. [[AGENTS]]— this file
 2. [[ai-agent-instructions]] — the "What You Must Ask Me Before Doing" rules
 3. [[00-Personal-Context-Portfolio/Personal Context Portfolio|Personal Context Portfolio]] - This is the guide to who I am, what I do, and how to work with me.
 4. [[2026-Index]] — current year index
