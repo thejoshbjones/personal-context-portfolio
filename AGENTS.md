@@ -145,3 +145,5 @@ A flat archive of published LinkedIn posts stored in `02-Social-Posts/`.
 4. [[2026-Index]] — current year index
 5. [[2026-Collections]] — current year collections
 6. [[2026-June]] — current month
+
+[[README]]
