@@ -1,2 +1,2 @@
 [[4 Line Claude Explanation]]
-[[CLAUDE.md]]
+[[CLAUDE Template]]

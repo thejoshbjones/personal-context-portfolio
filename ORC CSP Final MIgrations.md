@@ -4,10 +4,21 @@
        - Jared Johnson
        - jared@finiteconsulting.net
        - 214-453-1160
+       - Sherry Conaway
+       - sherry@bgaainc.com
+       - (972) 437-9070
  - [x] Cronacher Development Corp
 	 - Michael Anderson
 	 - michael@andersoncts.net
 	 - (239) 776-2385
+ - Financial network insurance
+	 - Ashley
+	 - Sergio montes
+	 - sergio@financialnetworkins.com
+	 - Wessly Anderson
+	 - wess@financialnetworkins.com
+	 - Natalie Evans
+	 - nat@financialnetworkins.com
 - [ ] D'Interieur, Inc D/B/A/ Interieurs
 	-  Luke Gardner
 	- lggardner@me.com
@@ -18,23 +29,49 @@
 - [x] IBTNOW
 	-  Michael Anderson
 	 - michael@andersoncts.net
-	 - (239) 776-2385
+	 - (239) 776-2385 
+	 - 239-919-4953
+	 - 470-990-2123
 - [x] Hire Road Inc.
 	- Bryan Watson
 	- bwatson@hire-road.com
 	- (248) 444-7075
+	- Also HAKE
+		- (734) 787-9630
+		- (216) 835-5602
+		- Roman 248-915-5665
+		- roman.hojnacki@hakeindustries.com
+		- rsidebottom@hakeindustries.com
 - [x] NetOne
 	- Jorge Roseblut
 	- netone247@gmail.com
 	- (305) 598-2743
+	- [Jorge@rosenblut.com]
+	- 305-485-5703
+	- felipe martinez
+	- fmartinez@netoneonline.com
+	- 305-776-6210
+	- 305-598-2743
 - [x] One Building Connect
 	- Nehemiah Andrews
 	- nandrews@gethake.com
 	- (800) 931-4253
+	- Also HAKE
+		- (734) 787-9630
+		- (216) 835-5602
+		- Roman 248-915-5665
+		- roman.hojnacki@hakeindustries.com
+		- rsidebottom@hakeindustries.com
 - [x] Secured Data Services
 	- Nehemiah Andrews
 	- nandrews@gethake.com
 	- (800) 931-4253
+		-  Also HAKE
+		- (734) 787-9630
+		- (216) 835-5602
+		- Roman 248-915-5665
+		- roman.hojnacki@hakeindustries.com
+		- rsidebottom@hakeindustries.com
 - [ ] Shepps
 	- Phillip Sheppard
 	- Philip@shepps.com
