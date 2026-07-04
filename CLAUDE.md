@@ -1,1 +1,1 @@
-Start by going to the [[AGENTS]] file in the root of this folder for your guidance of how to do what i'm asking in that resource.
+Start by going to the [[AGENTS.md]] file in the root of this folder for your guidance of how to do what i'm asking in that resource.

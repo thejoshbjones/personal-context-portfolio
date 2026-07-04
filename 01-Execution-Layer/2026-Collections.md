@@ -1,4 +1,4 @@
-# Collections
+## Collections
 
 # Collections (p.395–319; 250-)
 
@@ -332,3 +332,16 @@ These pages show a system diagram for “Nova Wafers.” The clearer inked versi
 - Legible names include: Shem, Arpachshad, Shelah, Eber, Peleg, Reu, Serug, Nahor, Terah, Abram, Isaac, Jacob
 
 - Notes at right margin appear to include names such as Lamech, Shelah, Peleg, Reuel, Nahor, Perez? __(partially uncertain)__
+
+
+## SPLA Issue (p.221)
+- $600,000 -> Penalty
+- $300,000 -> SPLA
+- $900,000 -> Azure Commit in 3x the penalty
+	- Year 1 -> 25% -> Annual/$225,000 -> Monthly/$18,750
+	- Year 2 -> 35% -> Annual/$315,000 -> Monthly/$26,250
+	- Year 3 -> 45% -> Annual/$360,000 -> Monthly/$30,000
+- 3:1 ratio back
+	- $900,000 -> $300,000
+![[Pasted image 20260630081812.png]]
+![[Pasted image 20260630163149.png]]

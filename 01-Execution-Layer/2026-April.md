@@ -90,7 +90,7 @@
 - [x] Reverse Plan Quarterly Initiatives and Objectives
 - [x] FollowUp with Non-US Domained CSP Customers
 - [x] LOB Invoice Review
-- [ ] KPI Target Call w/Bob and Tina <--pg26-3-10 -->pg31-4-14
+- [x] KPI Target Call w/Bob and Tina <--pg26-3-10 -->pg31-4-14
 - [ ] ~~Thai Hours <--pg26-3-10~~
 - [x] Datacenter Rack Shcedule <--pg26-3-10 -->pg37-5-25
 - [x] Datto Call Re-Intro <--pg26-3-10 -->pg37-5-25
@@ -113,7 +113,7 @@
 ---
 ## 2026-04-14 (p.31)
 
-- [ ] KPI Target Call w/ Bob and Tina <--pg30-4-10 -->pg37-5-25
+- [x] KPI Target Call w/ Bob and Tina <--pg30-4-10 -->pg37-5-25
 - [x] Datacenter Rack Schedule <--pg30-4-10 -->pg37-5-25
 - [x] Finish Onboard Prep for McCar
 - [x] Review Pur Array Support Options

@@ -37,6 +37,7 @@
 - Dad's B-Day - 18th (70)
 - Father's Day - 21st
 - Cathryn Vacca's B-Day - 22nd ()
+- Melanie Eusea's B-Day - 30th ()
 ## Jul 26
 
 - July 4th Holiday - 3rd - Holiday

@@ -94,7 +94,7 @@
 - [ ] ~~Thai Hours? <--pg24-3-4 -->pg25-3-6~~
 - [x] Call remaining customers re:registrar access -->pg25-3-6
 - [x] Gather AKR Citrix infomation from Moses -->pg25-3-6
-- [ ] KPI Targets Call w/ Tina and Bob -->pg25-3-6
+- [x] KPI Targets Call w/ Tina and Bob -->pg25-3-6
 - [x] Steps for Cyber
 	- [x] Validate Cyber Documentation (Don't send tickets to boards)
 	- [x] Ticket Template (first task to remove agreement)
@@ -111,7 +111,7 @@
 - [ ] ~~Thai Hours <--pg24-3-5 -->pg25-3-9~~
 - [x] Call remaining customers in registrar access <--pg24-3-5
 - [x] Gather Citrix AKR Info from Moses <--pg24-3-5
-- [ ] KPI target call w/Tina and Bob <--pg24-3-5 -->pg25-3-9
+- [x] KPI target call w/Tina and Bob <--pg24-3-5 -->pg25-3-9
 
 ---
 ## 2026-03-08 (p.25)
@@ -141,7 +141,7 @@
 - [x] Datacenter Rack Schedule <--pg25-3-6 -->pg26-3-10
 - [ ] ~~Rippling Email <--pg25-3-6 -->pg26-3-10~~
 - [ ] ~~Thai Hours <--pg25-3-6 -->pg26-3-10~~
-- [ ] KPI Target call w/Tina and Bob <--pg25-3-6 -->pg26-3-10
+- [x] KPI Target call w/Tina and Bob <--pg25-3-6 -->pg26-3-10
 - [x] Cyber Project Messes
 - [x] ProofPoint Customers
 
@@ -158,7 +158,7 @@
 - [x] Datacenter Rack Schedule <--pg25-3-9 -->pg30-4-10
 - [ ] ~~Rippling Email <--pg25-3-9~~
 - [ ] ~~Thai Hours <--pg25-3-9 -->pg30-4-10~~
-- [ ] KPI Target call w/Tina and Bob <--pg25-3-9 -->pg30-4-10
+- [x] KPI Target call w/Tina and Bob <--pg25-3-9 -->pg30-4-10
 
 ---
 ## 2026-03-11 (p.26)
