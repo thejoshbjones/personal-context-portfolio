@@ -61,10 +61,15 @@
 - Crexendo -> $7k
 - ![[Pasted image 20260520213453.png]]
 - Hosts
-	- ESX11 - PO1
-	- ESX12 - PO2
-	- ESX13 - PO2
-	- ESX14 - ?
-	- ESX15 - ?
-	- ESX16 - Already Had
-	- ESX17 - Alerady Had
+	- CW PO# 204398
+		- ESX11 - PO1
+		- ESX12 - PO2
+		- ESX13 - PO2
+	- Would need to move to 32GB if Keeping. Want to Get rid of.
+		- ESX14 - ?
+		- ESX15 - ?
+	- Need to keep these for long term N+1 with 16GB->32GB for storage
+		- ESX16 - Already Had 
+			- DELL EMULEX LPe35002 DUAL POR 32GB FC 2 745.00
+		- ESX17 - Alerady Had
+			-  DELL EMULEX LPe35002 DUAL POR 32GB FC 2 745.00

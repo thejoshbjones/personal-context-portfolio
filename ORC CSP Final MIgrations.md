@@ -1,4 +1,4 @@
- - [x] Brad Greer & Associates
+ - [ ] Brad Greer & Associates
        - bgaainc.com
        - 972.437.9070
        - Jared Johnson
@@ -7,11 +7,12 @@
        - Sherry Conaway
        - sherry@bgaainc.com
        - (972) 437-9070
+   - called back
  - [x] Cronacher Development Corp
 	 - Michael Anderson
 	 - michael@andersoncts.net
 	 - (239) 776-2385
- - Financial network insurance
+ - [ ] Financial network insurance
 	 - Ashley
 	 - Sergio montes
 	 - sergio@financialnetworkins.com

@@ -629,3 +629,145 @@ main_menu() {
 
 main_menu
 ```
+
+## Claude Desktop with Third Party inference
+
+- Configureation Location
+	- ~/Library/Application Support/Claude-3p/configLibrary/
+```
+{
+
+"name": "GitHub",
+
+"transport": "http",
+
+"url": "https://api.githubcopilot.com/mcp",
+
+"oauth": {
+
+"mode": "byo",
+
+"clientSecret": "0c8e588f7ed6d3b4ef3f23bf655afc4b9a6f78d4",
+
+"clientId": "Ov23liBPZOK1QIXg4JVM",
+
+"authorizationServer": [
+
+"https://github.com"
+
+],
+
+"callbackPort": 53280
+
+}
+
+}
+
+  
+  
+  
+
+{
+
+"inferenceGatewayBaseUrl": "https://hatz-claude-shim.joshuabrandonjones.workers.dev",
+
+"inferenceGatewayApiKey": "ThisIsTheHatzSecretAccess",
+
+"chatTabEnabled": true,
+
+"isDesktopExtensionEnabled": true,
+
+"managedMcpServers": [
+
+{
+
+"name": "KRISP",
+
+"transport": "http",
+
+"url": "https://mcp.krisp.ai/mcp"
+
+"oauth": {
+
+"mode": "dcr"
+
+}
+
+},
+
+{
+
+"name": "Personal Context Portfolio",
+
+"transport": "http",
+
+"url": "https://personalcontextportfolio.joshuabrandonjones.workers.dev/mcp",
+
+"headers": {
+
+"Authorization": "Bearer ThisIsWhoIAm1!"
+
+}
+
+},
+
+{
+
+"name": "GitHub",
+
+"transport": "http",
+
+"url": "https://api.githubcopilot.com/mcp",
+
+"oauth": {
+
+"mode": "byo",
+
+"clientSecret": "0c8e588f7ed6d3b4ef3f23bf655afc4b9a6f78d4",
+
+}
+
+}
+
+],
+
+"disableBundledSkills": false,
+
+"allowedWorkspaceFolders": [
+
+{
+
+"path": "/Users/joshuajones/Library/CloudStorage/OneDrive-Personal",
+
+"isDefaultSelected": false
+
+},
+
+{
+
+"path": "/Users/joshuajones/Library/CloudStorage/OneDrive-ITVoice"
+
+},
+
+{
+
+"path": "/Users/joshuajones/GitHub/personal-context-portfolio",
+
+"isDefaultSelected": true
+
+}
+
+],
+
+"coworkEgressAllowedHosts": [
+
+"*"
+
+],
+
+"inferenceProvider": "gateway",
+
+"inferenceCredentialKind": "static"
+
+}
+```

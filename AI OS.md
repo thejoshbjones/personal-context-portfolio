@@ -9,6 +9,7 @@ https://x.com/addyosmani/status/2064127981161959567
 https://developer.apple.com/documentation/coreai
 [[Personal Context Portfolio]]
 [[CLAUDE Root]]
+[[Reading Material]]
 - Build an AI Ethos
 	- https://www.youtube.com/watch?v=ytxtK9ZOJE4
 	- https://www.youtube.com/watch?v=ntvkDnk_5jA
