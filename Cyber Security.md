@@ -1,5 +1,5 @@
 [[Cyber Security Billing Examples]]
 [[billing debacle]]
-[[CRI]]
+[[Loan Compliance Partner]]
 [[AI Governance]]
 https://honest.security/#toc

@@ -73,3 +73,13 @@
 			- DELL EMULEX LPe35002 DUAL POR 32GB FC 2 745.00
 		- ESX17 - Alerady Had
 			-  DELL EMULEX LPe35002 DUAL POR 32GB FC 2 745.00
+
+## Storage for Backups
+
+1.9PB
+1856.9+930.5+77.2+81.3=2945.9PB
+1856.9-(930.5+77.2+81.3)=767.9TB
+1856.9-930.5=926.4TB
+930.5-(77.2+81.3)=772TB
+1856.9 - Everything in ORC
+1028.8 - ORC/nix Embrace, VSA, Mauser non-prod

@@ -1,0 +1,22 @@
+- Potential Partners
+	- CRI
+	- PBH
+	- Risk Management Partners
+- needs for partnership
+	- Sample Size
+	- Hours
+	- monthly transaction monitoring
+	- Assets
+	- Schedule
+- Problem Customers
+	- Trinity
+	- Socorro
+	- Plains
+- Other Notes
+	- scope
+	- banks and cus
+	- assets
+	- Loan volume (per loan file)
+	- scheduled
+	- fedicia at 1 and 5 b
+	- colonade at 280 and 459
