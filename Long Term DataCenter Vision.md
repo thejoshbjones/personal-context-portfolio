@@ -59,7 +59,7 @@
 				- fiber channel storage
 				- access level standard communication
 - Crexendo -> $7k
-- ![[Pasted image 20260520213453.png]]
+- ![[Pasted image 20260520213453.png|517]]
 - Hosts
 	- CW PO# 204398
 		- ESX11 - PO1
@@ -73,6 +73,8 @@
 			- DELL EMULEX LPe35002 DUAL POR 32GB FC 2 745.00
 		- ESX17 - Alerady Had
 			-  DELL EMULEX LPe35002 DUAL POR 32GB FC 2 745.00
+- procs have to match
+	- 
 
 ## Storage for Backups
 
