@@ -1,5 +1,6 @@
 [[Cloud]]
-[[ProxMox]]
+[[ProxMox Evaluation]]
+[[HyperVisor Rebuild]]
 [[capex spend]]
 [[Long Term DataCenter Vision]]
 https://slappeyco-my.sharepoint.com/:x:/g/personal/wslappey_slappey_com/IQCsU_KeWkMMSqONMkKk-2UdAXNJU6pZfyr7G_oRMblz-lk?wdExp=TEAMS-TREATMENT&web=1&TeamsCID=c51a4ebc-c78b-4169-80ab-7a06218b1fb4&isSPOFile=1&ovuser=090f7937-61fd-44be-bca1-b2f2e772d7d1%2Cjoshua.jones%40itvoice.com&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI1MC8yNjA1MjkwNjExMCIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D&linkOpenTime=1781534006571

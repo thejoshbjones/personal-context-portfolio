@@ -79,7 +79,7 @@ Each year is self-contained with this structure:
 - `YYYY-Month_Collection` — monthly theme and project captures
 
 Current year index: [[2026-Index]]
-Current month: [[2026-July]]
+Current month: [[2026-September]]
 Current collections: [[2026-Collections]]
 
 Previous year indexes:
@@ -144,6 +144,6 @@ A flat archive of published LinkedIn posts stored in `02-Social-Posts/`.
 3. [[00-Personal-Context-Portfolio/Personal Context Portfolio|Personal Context Portfolio]] - This is the guide to who I am, what I do, and how to work with me.
 4. [[2026-Index]] — current year index
 5. [[2026-Collections]] — current year collections
-6. [[2026-July]] — current month
+6. [[2026-September]] — current month
 
 [[README]]

@@ -1,0 +1,23 @@
+[[U20 Rebuild]]
+- 55 days from 9/1
+
+- Questions
+	- Server Stack
+		- What are the specs of the new 5 servers (Model, Proc, RAM, Logical Proc)?
+		- What is running on each host and what is it's usage in terms of Proc, RAM, and Network?
+	- Embrace Questions
+		- What is the timeline for migrating Embrace?
+	- Network Stack
+		- What types of switches do we have left unused in our currently purchased stack?
+		- What is actually needed to support the network usage and can we sell equipment to repurchase appropriately given the equipment is NFR?
+	- General Cloud Work Questions
+		- What is the timeline for moving forward with HyperV?
+		- What is the timeline for moving forward with ProxMox?
+		- What other known work efforts are required from the customer end over the next 3 months?
+- 11:11
+	- Operational Lease
+	- Cost Analysis
+		- RVTools Export
+		- Catalyst
+			- https://success.1111systems.com/docs/catalyst/catalyst-overview-and-user-guide-video
+		- 

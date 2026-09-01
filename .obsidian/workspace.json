@@ -8,34 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "35adaa91b6680f63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Execution-Layer/2026-July.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-July"
-            }
-          },
-          {
-            "id": "f7121e04a869cda9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Execution-Layer/2026-July_Collection.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-July_Collection"
-            }
-          },
-          {
             "id": "2a67f612b1fb17c5",
             "type": "leaf",
             "state": {
@@ -50,21 +22,119 @@
             }
           },
           {
-            "id": "55a9d0fdc9cee9a2",
+            "id": "8d33c4754344ec21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Long Term DataCenter Vision.md",
+                "file": "Network Visibility.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Long Term DataCenter Vision"
+              "title": "Network Visibility"
+            }
+          },
+          {
+            "id": "c0e5826d6e5b0d58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataCenter Migration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DataCenter Migration"
+            }
+          },
+          {
+            "id": "515745206eea3881",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "U20 Rebuild.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "U20 Rebuild"
+            }
+          },
+          {
+            "id": "89f99a2897b25596",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HyperVisor Rebuild.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HyperVisor Rebuild"
+            }
+          },
+          {
+            "id": "a25d0a1a299819eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fractional CTO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fractional CTO"
+            }
+          },
+          {
+            "id": "7ce384fcee275587",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Galactic Scan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Galactic Scan"
+            }
+          },
+          {
+            "id": "d03c4440c07df705",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Execution-Layer/2026-September.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-September"
+            }
+          },
+          {
+            "id": "5c0c550cc0a2a7df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Execution-Layer/2026-September_Collection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-September_Collection"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -84,7 +154,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -117,13 +189,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "15b3cf59e569861d",
@@ -225,36 +295,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "55a9d0fdc9cee9a2",
+  "active": "d03c4440c07df705",
   "lastOpenFiles": [
+    "01-Execution-Layer/2026-September_Collection.md",
+    "HyperVisor Rebuild.md",
+    "DataCenter Migration.md",
+    "Network Visibility.md",
+    "Embrace.md",
+    "01-Execution-Layer/2026-September.md",
+    "U20 Rebuild.md",
+    "Galactic Scan.md",
+    "Fractional CTO.md",
+    "AGENTS.md",
+    "ai-agent-instructions.md",
+    "01-Execution-Layer/2026-July.md",
+    "01-Execution-Layer/2026-August.md",
+    "01-Execution-Layer/2026-August_Collection.md",
+    "01-Execution-Layer/2026-July_Collection.md",
+    "Cyber Security.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Untitled.canvas",
+    "ProxMox Evaluation.md",
+    "Cloud.md",
+    "Long Term DataCenter Vision.md",
+    "Other Business Ideas.md",
+    "Digital Transformation.md",
     "Tools List.md",
     "AI OS.md",
-    "01-Execution-Layer/2026-July.md",
-    "01-Execution-Layer/2026-July_Collection.md",
-    "Embrace.md",
-    "Long Term DataCenter Vision.md",
-    "01-Execution-Layer/2026-August.md",
     "00-Personal-Context-Portfolio/Personal Context Portfolio.md",
-    "00-Personal-Context-Portfolio/communication-style.md",
-    "00-Personal-Context-Portfolio/identity.md",
-    "01-Execution-Layer/2023-Index.md",
-    "task-flow-sync-improved/INSTALLATION.md",
-    "Storage.md",
-    "Loan Compliance Partner.md",
-    "Untitled.canvas",
-    "01-Execution-Layer/2026-June.md",
-    "AGENTS.md",
-    "Personal Context Portfolio.md",
-    "ai-agent-instructions.md",
-    "task-flow-sync-improved/INSTALLATION_COMPLETE.md",
-    "task-flow-sync-improved/CHECKLIST.md",
-    "task-flow-sync-improved/WORKFLOW.md",
-    "task-flow-sync-improved/SUMMARY.md",
-    "task-flow-sync-improved/QUICKSTART.md",
     "task-flow-sync-improved/thread_tasks.py",
-    "task-flow-sync-improved/SKILL.md",
-    "task-flow-sync-improved/README.md",
-    "task-flow-sync-improved/IMPROVEMENTS.md",
     "task-flow-sync-improved",
     "Pasted image 20260708092321.png",
     "GitSync.sh",

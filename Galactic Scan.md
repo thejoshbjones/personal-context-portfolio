@@ -1,0 +1,22 @@
+- From 
+	- Vpentest
+	- Vulscan
+		- $299
+	- Both Kaseya
+- To
+	- Galactic Scan
+		- same test for vulnerability and pen test
+		- requires agent
+		- More holistic view
+			- cloud productivity
+			- can scan at network level
+			- designed remote first
+			- endpoint scan
+	- Agentful
+		- ClientWatch
+			- Annual pen test over all endpoints
+			- quarterly scans (vuln and pen)
+			- GRC is included with ClientWatch
+			- Training/Not Testing
+	- How to run without agent install?
+		- Click on EXE in email

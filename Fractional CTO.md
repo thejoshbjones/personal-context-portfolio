@@ -1,0 +1,120 @@
+
+- Intro
+	- 2 models
+		- Advisor
+			- $3000-$5000
+			- Handful of Hours
+			- Providing Guidance and Support
+		- Engage
+			- $8000-$10000
+			- 
+			- Providing Accountability for Deliverables
+	- Qualifications
+		- Strong background in technology
+		- Leadership Experience
+		- 10-15 years
+	- Getting Clients
+		- Small and Mid-Sized Businesses
+		- $1M - $10M
+		- Full-Time CTO
+			- full time salary and equity dillution
+		- Fractional CTO
+			- 100% of the outcome for a fraction of the cost
+			- Someone who can:
+				- Come in
+				- Set the strategy
+				- Build or fix the team
+				- Drive execution
+		- 100 conversations in the first 90 days
+			- Clear Value Proposition
+				- I'm a fractional CTO for companies in: Your niche.
+				- I connect the business vision to technology and deliver results without the cost of a full-time executive.
+				- _**blank**_ companies under _**blank**_ revenue/between _**blank**_ and _**blank**_ employees/_**blank**_ range of product output.
+			- I'd love to catch up, see what you've been up to and share a new project i've been working on. Have 15 minutes next Tuesday?
+				- I'm launching a fractional CTO practice. Niche in mind. Ask for advice. Who else should I be talking to?
+			- The numbers
+				- 10 messages per day
+					- 2-3 responses
+					- 1 per week is an actual conversation
+					- 1 in 5 conversations turns into a prospect
+					- 1 in 3 turns into a client.
+				- 10x20 working days = 200 messages per month.
+					- 8-10 conversations
+					- 2-3 qualified prospects
+		- Day in the Life
+			- async updates from team
+			- 15 minutes reviewing what's blocked and what needs your attention
+			- Advisory
+				- 2-4 hours per week per client
+				- 1 monthly call with the CEO
+				- async architecture reviews
+				- Strategic oversight preventing months of wasted work through high leveraged coversations
+			- Engage
+				- 8-15 hours per week per client
+				- Weekly leadership meetings
+				- 1:1s with technical leaders
+				- Quarterly planning sessions because you own the roadmap
+				- Hiring conversations, vendor negotiations, board updates...you're the CTO
+			- The framework for either model is: What are you going to do and why?
+			- Not a consultant. 
+				- Consultants solve defined problems. 
+				- Fractional CTOs 
+					- define problems
+					- set the strategy
+					- own the results
+					- Part of the leadership team
+			- after client work you run your practice
+				- speak to prospects, fin
+				- documenting wins, and getting testimonials, that's proof
+				- refining your delivery and creating templates, that's systems
+				- Work out, travel, spend time with family, that's life.
+			- The math
+				- Advisory level with 4 clients
+					- 12 hours of client work
+					- 8 hours of practice work
+					- 20 hours per week
+					- $16,000-$20,000 per month
+				- Engage model with 3 clients
+					- 30 hours of client work
+					- 10 hours of practice work
+					- 40 hours per week
+					- $30,000-$45,000 per month
+		- Next steps
+			- Identity shift
+				- Employee to Entrepreneur
+				- You own your business
+			- Choose the Model
+			- Choose the Promise
+				- Position around outcome, not skills
+				- Choose your niche
+			- Build your offer
+				- menu
+					- Workshop/Audit
+						- $2500-$10000 - One Time
+					- Advisory
+						- $3000-$7000 - Per month
+					- Engage
+						- $8000 - $20000 - Per month
+			- Start conversations
+				- Identify 15-20 people you know or can reach
+					- business owners
+					- account managers
+					- former clients and bosses
+					- connectors and multipliers who know like and trust you
+				- Schedule a 15 minute catchup call
+				- Get support
+	- Pitch
+		- I'd love to catch up. Have 25 minutes next  __**Blank**__ ? I'd like to spend 20 minutes hearing what you're doing and share about new project i've been working on and ask for some advice.
+			- I'm launching a fractional CTO practice for companies between $1M and $10M with between 20-60 staff. 
+			- Do you have any advice?
+			- Can you think of someone else I should speak with about this? Would you be willing to connect us?
+		- Clear Value Proposition
+			- What I do:
+				- I connect the business vision to technology and deliver results without the cost of a full-time executive.
+					- I can coach and develop internal staff to do that with the goal of a long term handoff back to internal staff.
+					- Also, if that person doesn't exist, I can supply that until the business grows to need someone full-time.
+			- Ideal customer:
+				- Companies between $1M-$10M in revenue with between 20 and 60 people. Mostly in manufacturing, software development, or PE backed platform situations.
+				- CEO is making all the decisions has technical leadership but the person is new and needs assistance and coaching to grow into their future role. The technical leader only speaks technology and isn't able to translate the problems they see into financial impact and return perspective or develop a long term plan to support the CEOs vision. So the CEO find themself unable to step away from the technical parts of the operations even though they need to do that.
+- Brainstorm Call
+	- 

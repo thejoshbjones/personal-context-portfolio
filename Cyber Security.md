@@ -3,3 +3,4 @@
 [[Loan Compliance Partner]]
 [[AI Governance]]
 https://honest.security/#toc
+[[Galactic Scan]]
