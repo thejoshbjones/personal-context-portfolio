@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Obsidian editor state
+# Keeps vault content versioned while ignoring per-machine UI state.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+.trash/
+
+# Cloudflare Workers / Wrangler
+# .wrangler/ can cache account identifiers and token material — never commit.
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Editor and scratch
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local backups
+*.bak
+*.old
