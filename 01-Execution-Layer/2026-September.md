@@ -52,7 +52,7 @@
 - [ ] Kids YouTube <--pg50-7-28
 - [ ] Reach out to Beta Users  <--pg50-7-23 -->pg58-9-2
 - [ ] Update Budget Sheet  <--pg50-7-23
-- [ ] Cancel AT&T -->pg58-9-2
+- [x] Cancel AT&T -->pg58-9-2
 - [ ] Globe Life -->pg58-9-2
 - [ ] Connect Eli and Aaron to Dub and Matt -->pg58-9-2
 - [x] Opex/Capex w/Jake and Melanie
@@ -71,15 +71,30 @@
 - [ ] Bee Notes
 - [ ] Insurance Cards <--pg58-9-1
 - [ ] Reach out to Beta Users <--pg58-9-1
-- [ ] Cancel AT&T <--pg58-9-1
+- [x] Cancel AT&T <--pg58-9-1
 - [ ] Globe Life <--pg58-9-1
 - [ ] Connect Eli and Aaron to Dub and Matt <--pg58-9-1
 - [ ] Update CRM for Consulting <--pg58-9-1
 - [ ] Pay Life Insurance <--pg58-9-1
 - [ ] Review ORC Items <--pg58-9-1
 - [ ] Further work on consulting materials <--pg58-9-1
-- [ ] Dale Wallace Call
+- [x] Dale Wallace Call
 - [ ] Build Capacity Measures
-- [ ] Type/SubType/Item Call w/James
+- [x] Type/SubType/Item Call w/James
+- [x] Meet with Andrew Feng
+
+---
+## 2026-09-02 (p.58)
+
+- [ ] Bee Notes
+- [ ] Insurance Cards <--pg58-9-1
+- [ ] Reach out to Beta Users <--pg58-9-1
+- [ ] Globe Life <--pg58-9-1
+- [ ] Connect Eli and Aaron to Dub and Matt <--pg58-9-1
+- [ ] Update CRM for Consulting <--pg58-9-1
+- [ ] Pay Life Insurance <--pg58-9-1
+- [ ] Review ORC Items <--pg58-9-1
+- [ ] Further work on consulting materials <--pg58-9-1
+- [ ] Build Capacity Measures
 
 ---
