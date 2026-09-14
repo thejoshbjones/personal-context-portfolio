@@ -58,7 +58,7 @@
 - [x] Opex/Capex w/Jake and Melanie
 - [ ] Update CRM for Consulting -->pg58-9-2
 - [ ] Pay Life Insurance -->pg58-9-2
-- [ ] Review ORC Items -->pg58-9-2
+- [x] Review ORC Items -->pg58-9-2
 - [x] Respond to Sue's Emails
 - [x] MIT/Cyber/Cloud w/Matt
 - [x] Follow-Up on type/subtype/item
@@ -68,33 +68,60 @@
 
 ## 2026-09-02 (p.58)
 
-- [ ] Bee Notes
-- [ ] Insurance Cards <--pg58-9-1
+- [x] Bee Notes
+- [ ] Insurance Cards <--pg58-9-1 -->pg59-9-14
 - [ ] Reach out to Beta Users <--pg58-9-1
 - [x] Cancel AT&T <--pg58-9-1
 - [ ] Globe Life <--pg58-9-1
 - [ ] Connect Eli and Aaron to Dub and Matt <--pg58-9-1
 - [ ] Update CRM for Consulting <--pg58-9-1
 - [ ] Pay Life Insurance <--pg58-9-1
-- [ ] Review ORC Items <--pg58-9-1
-- [ ] Further work on consulting materials <--pg58-9-1
+- [x] Review ORC Items <--pg58-9-1
+- [x] Further work on consulting materials <--pg58-9-1
 - [x] Dale Wallace Call
 - [ ] Build Capacity Measures
 - [x] Type/SubType/Item Call w/James
 - [x] Meet with Andrew Feng
 
 ---
-## 2026-09-02 (p.58)
+## 2026-09-03 (p.58)
 
+- [x] Connect Matt & Dub w/lighthouse re: Hudu -->pg58-9-7
+- [x] Send ORC items to further team for feedback
+- [x] Follow up w/Darrell on Switch licensing
+
+---
+## 2026-09-07 (p.58)
+
+- [x] F.U. w/Owen
+- [x] Connect Matt & Dub w/lighthouse re: Hudu <--pg58-9-3
+- [ ] Inbox 0 -->pg59-9-14
+- [ ] Send Deck to Andrew and Dale -->pg59-9-14
+
+---
+## 2026-09-08 (p.59)
+
+- [ ] Life Insurance -->pg59-9-14
+- [x] Rescheduled Dr.
+- [x] Schedule Coaching Session for Caulder
+- [x] Reach out to Texas Wind Coaches
+
+---
+## 2026-09-09 (p.59)
+
+- [ ] Review Labor COGs Allocation -->pg59-9-14
+- [x] Meet w/Kellie re: new position
+- [ ] Work on Capacity Measure gauges & 2nd call w/Chris and Bob -->pg59-9-14
+
+---
+## 2026-09-14 (p.59)
+
+- [ ] Review Labor COGs Allocation <--pg59-9-9
+- [ ] Work on Capacity Measure gauges & 2nd call w/Chris and Bob <--pg59-9-9
+- [ ] Life Insurance <--pg59-9-8
+- [ ] Inbox 0 <--pg58-9-7
+- [ ] Send Deck to Andrew and Dale <--pg58-9-7
 - [ ] Bee Notes
-- [ ] Insurance Cards <--pg58-9-1
-- [ ] Reach out to Beta Users <--pg58-9-1
-- [ ] Globe Life <--pg58-9-1
-- [ ] Connect Eli and Aaron to Dub and Matt <--pg58-9-1
-- [ ] Update CRM for Consulting <--pg58-9-1
-- [ ] Pay Life Insurance <--pg58-9-1
-- [ ] Review ORC Items <--pg58-9-1
-- [ ] Further work on consulting materials <--pg58-9-1
-- [ ] Build Capacity Measures
+- [ ] Insurance Cards <--pg58-9-12
 
 ---
