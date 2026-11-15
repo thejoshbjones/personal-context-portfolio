@@ -26,6 +26,7 @@
 	- https://the-magpie.org/2017/02/28/laubach-on-experiencing-god-every-minute/
 	- https://conversatio.org/awareness-game-with-minutes/
 	- https://fieldpartner.org/resources/articles/frank-laubach/
+	- https://waterfromrock.org/2012/10/29/the-game-of-minutes/
 
 You win your minute if during that minute you either
 

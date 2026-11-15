@@ -3,56 +3,68 @@
 [[2026-November_Collection]]
 # November 2026
 
-## Monthly Calendar (November 26 OverView) (p.) 
+## Monthly Calendar (November 26 OverView) (p.65) 
 
 November  
 
 1 S  
-2 S  
-3 M  
-4 T  
-5 W  
-6 T  
-7 F  
+2 M
+3 T  
+4 W  
+5 T
+6 F  
+7 S  
 8 S  
-9 S  
-10 M  
-11 T O Veteran's Day  
-12 W  
-13 T  
-14 F  
-15 S  
-16 S  
-17 M O Mom & Dad Anniversary  
-18 T  
-19 W  
-20 T  
-21 F  
+9 M  
+10 T  
+11 W O Veteran's Day
+12 T  
+13 F  
+14 S  
+15 S  O J$ B-Day ()
+16 M  
+17 T O Mom & Dad Anniversary  
+18 W  
+19 T  
+20 F  
+21 S 
 22 S  
-23 S  
-24 M O Isaac's B-Day (11)  
-25 T  
-26 W  
-27 T O Thanksgiving  
-28 F O Ryan Shakes Anniversary  
-29 S O Scott's B-Day & Bee's B-Day  
-30 S  
+23 M  
+24 T O Isaac's B-Day (11)  
+25 W  
+26 T  
+27 F O Thanksgiving  
+28 S O Thanksgiving Post Holiday 
+29 S O Scott's B-Day (41) & Bee's B-Day (17) 
+30 M  
 
 ---
-## Monthly Tasks (November 26 OverView) (p.) 
+## Monthly Tasks (November 26 OverView) (p.66) 
 
--
-
----
-
-## 2026-11-01 (p.)
-
--
+- Tech, Spirit, Culture <--pg62-October
+- Finance Audit Agent <--pg62-October
 
 ---
 
-## 2026-11-02 (p.)
+## 2026-11-02 (p.67)
 
--
+- [x] Review Sophos usage and invoices for CyberSanik <--pg64-10-30
+- [x] Address CW Time Approvals
+- [x] Address Nashville Switch Plans
+- [ ] Brazos Request List <--pg63-10-5 -->pg67-11-12
+
+---
+## 2026-11-11 (p.67)
+
+- [x] Adjust Ghost Board skill to include voice tickets and team
+- [x] Develop Communication for DG and schedule call
+- [ ] Follow up on ESXi licensing -->pg67-11-12
+
+---
+## 2026-11-12 (p.67)
+
+- [ ] Follow up on ESXi licensing <--pg67-11-11
+- [ ] Send NexNow Pricing to Todd
+- [ ] Follow Up on information for Brazos Audit <--pg67-11-2
 
 ---

@@ -39,47 +39,47 @@
 ---
 ## Monthly Tasks (September 26 OverView) (p.57)
 
-- Setup Connection w/Woz <-- [[2026-August]]
-- Tech, Spirit, Culture <-- [[2026-August]]
-- Finance Audit Agent <-- [[2026-August]]
+- Setup Connection w/Woz <-- [[2026-August]] --> [[2026-October]]
+- Tech, Spirit, Culture <-- [[2026-August]] --> [[2026-October]]
+- Finance Audit Agent <-- [[2026-August]] --> [[2026-October]]
 
 ---
 
 ## 2026-09-01 (p.58)
 
 - [x] Bee Notes <--pg54-8-2
-- [ ] Insurance Cards <--pg50-7-28 -->pg58-9-2
+- [x] Insurance Cards <--pg50-7-28 -->pg58-9-2
 - [ ] Kids YouTube <--pg50-7-28
-- [ ] Reach out to Beta Users  <--pg50-7-23 -->pg58-9-2
+- [x] Reach out to Beta Users  <--pg50-7-23 -->pg58-9-2
 - [ ] Update Budget Sheet  <--pg50-7-23
 - [x] Cancel AT&T -->pg58-9-2
-- [ ] Globe Life -->pg58-9-2
-- [ ] Connect Eli and Aaron to Dub and Matt -->pg58-9-2
+- [x] Globe Life -->pg58-9-2
+- [x] Connect Eli and Aaron to Dub and Matt -->pg58-9-2
 - [x] Opex/Capex w/Jake and Melanie
-- [ ] Update CRM for Consulting -->pg58-9-2
-- [ ] Pay Life Insurance -->pg58-9-2
+- [x] Update CRM for Consulting -->pg58-9-2
+- [x] Pay Life Insurance -->pg58-9-2
 - [x] Review ORC Items -->pg58-9-2
 - [x] Respond to Sue's Emails
 - [x] MIT/Cyber/Cloud w/Matt
 - [x] Follow-Up on type/subtype/item
-- [ ] Further work on consulting materials -->pg58-9-2
+- [x] Further work on consulting materials -->pg58-9-2
 
 ---
 
 ## 2026-09-02 (p.58)
 
 - [x] Bee Notes
-- [ ] Insurance Cards <--pg58-9-1 -->pg59-9-14
-- [ ] Reach out to Beta Users <--pg58-9-1
+- [x] Insurance Cards <--pg58-9-1 -->pg59-9-14
+- [x] Reach out to Beta Users <--pg58-9-1
 - [x] Cancel AT&T <--pg58-9-1
-- [ ] Globe Life <--pg58-9-1
-- [ ] Connect Eli and Aaron to Dub and Matt <--pg58-9-1
-- [ ] Update CRM for Consulting <--pg58-9-1
-- [ ] Pay Life Insurance <--pg58-9-1
+- [x] Globe Life <--pg58-9-1
+- [x] Connect Eli and Aaron to Dub and Matt <--pg58-9-1
+- [x] Update CRM for Consulting <--pg58-9-1
+- [x] Pay Life Insurance <--pg58-9-1
 - [x] Review ORC Items <--pg58-9-1
 - [x] Further work on consulting materials <--pg58-9-1
 - [x] Dale Wallace Call
-- [ ] Build Capacity Measures
+- [x] Build Capacity Measures -->pg63-10-5
 - [x] Type/SubType/Item Call w/James
 - [x] Meet with Andrew Feng
 
@@ -95,13 +95,13 @@
 
 - [x] F.U. w/Owen
 - [x] Connect Matt & Dub w/lighthouse re: Hudu <--pg58-9-3
-- [ ] Inbox 0 -->pg59-9-14
-- [ ] Send Deck to Andrew and Dale -->pg59-9-14
+- [x] Inbox 0 -->pg59-9-14
+- [x] Send Deck to Andrew and Dale -->pg59-9-14
 
 ---
 ## 2026-09-08 (p.59)
 
-- [ ] Life Insurance -->pg59-9-14
+- [x] Life Insurance -->pg59-9-14
 - [x] Rescheduled Dr.
 - [x] Schedule Coaching Session for Caulder
 - [x] Reach out to Texas Wind Coaches
@@ -109,19 +109,56 @@
 ---
 ## 2026-09-09 (p.59)
 
-- [ ] Review Labor COGs Allocation -->pg59-9-14
+- [x] Review Labor COGs Allocation -->pg59-9-14
 - [x] Meet w/Kellie re: new position
-- [ ] Work on Capacity Measure gauges & 2nd call w/Chris and Bob -->pg59-9-14
+- [x] Work on Capacity Measure gauges & 2nd call w/Chris and Bob -->pg59-9-14
 
 ---
 ## 2026-09-14 (p.59)
 
-- [ ] Review Labor COGs Allocation <--pg59-9-9
-- [ ] Work on Capacity Measure gauges & 2nd call w/Chris and Bob <--pg59-9-9
-- [ ] Life Insurance <--pg59-9-8
-- [ ] Inbox 0 <--pg58-9-7
-- [ ] Send Deck to Andrew and Dale <--pg58-9-7
-- [ ] Bee Notes
-- [ ] Insurance Cards <--pg58-9-12
+- [x] Review Labor COGs Allocation <--pg59-9-9
+- [x] Work on Capacity Measure gauges & 2nd call w/Chris and Bob <--pg59-9-9
+- [x] Life Insurance <--pg59-9-8
+- [x] Inbox 0 <--pg58-9-7
+- [x] Send Deck to Andrew and Dale <--pg58-9-7
+- [ ] ~~Bee Notes~~
+- [x] Insurance Cards <--pg58-9-12
+- [x] Update list of Jake tasks
+- [x] Call with James Wallace
+- [x] NOVA Map
+- [ ] Brazos Request List -->pg63-10-5
 
 ---
+## 2026-09-16 (p.59)
+
+- [x] Work on Capacity Measure gauges and setup second call with Chris and Bob -->pg59-9-17
+- [x] Brazos Bank ITSC
+- [x] Schedule time with Lindsey re: vCIO TBR Scheduling
+
+---
+## 2026-09-17 (p.59)
+
+- [x] Work on Capacity Measure gauges and setup second call with Chris and Bob <--pg59-9-16
+- [x] Send Trinity Fresh Addendum
+- [x] Call with Citizens Bank of Las Cruces re: Socorro Acquisition
+
+---
+## 2026-09-28 (p.59)
+
+- [x] Catch up from PTO
+- [x] Review Matt Transition Documents
+- [x] Follow Up with Jake on plans for Q4 Objective
+
+---
+## 2026-09-29 (p.59)
+
+- [x] Handoff Call with Matt
+- [x] Meet with Todd re: Q4 MAPs
+- [x] Reach out to Partners and Vendors for outside view on Veeam Migrations -->pg60-9-30
+
+---
+## 2026-09-30 (p.60)
+
+- [x] Reach out to Partners and Vendors for outside view on Veeam Migrations <--pg59-9-29
+- [x] Land Go/No Go on timed initiatives
+- [x] Work towards finalizing Capacity Gauges

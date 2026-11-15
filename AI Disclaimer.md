@@ -1,0 +1,2 @@
+[[LinkedIn Map]]
+I use AI tools—primarily Claude—to research, outline, and draft my content. I provide the source material: the personal stories, the frameworks, the business experience, and the judgment about what will actually help you. AI creates the first draft based on my detailed voice guidelines. I carefully review and edit everything before it reaches you.

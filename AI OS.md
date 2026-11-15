@@ -1,13 +1,17 @@
+[[AI Tasks List]]
+[[AI Disclaimer]]
 [[Digital Transformation]]
+[[AI Security]]
 MCP
 https://youtu.be/GuTcle5edjk
 [[AI Media Posts]]
 [[Tools List]]
-[[Local Harness]]
 [[redemptive ai]]
 https://x.com/addyosmani/status/2064127981161959567
 https://developer.apple.com/documentation/coreai
 [[Personal Context Portfolio]]
+[[Skills Library]]
+[[Local Harness]]
 [[CLAUDE Root]]
 [[Reading Material]]
 - Build an AI Ethos
