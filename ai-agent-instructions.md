@@ -2,7 +2,7 @@
 title: AI Agent Instructions
 type: context-portfolio
 priority: highest
-updated: 2026-06-21
+updated: 2026-11-15
 ---
 
 # AI Agent Instructions — Joshua Jones
@@ -41,7 +41,7 @@ you ask.
 ## How This Vault Works
 
 ### Task Layer
-- Tasks live in monthly daily entries (e.g., [[2026-September]])
+- Tasks live in monthly daily entries (e.g., [[2026-November]])
 - Tasks flow in from KRISP automatically — tasks only, not meeting notes
 - Completed tasks are marked `x`
 - Open tasks have no prefix
@@ -103,4 +103,4 @@ If you are new to this vault, read in this order:
 2. [[00-Personal-Context-Portfolio/Personal Context Portfolio|Personal Context Portfolio]]
 3. [[2026-Index]]
 4. [[2026-Collections]]
-5. [[2026-September]]
+5. [[2026-November]]

@@ -2,7 +2,7 @@
 title: Agent Entry Point
 type: agent-entry
 priority: highest
-updated: 2026-06-21
+updated: 2026-11-15
 ---
 
 # Cloudflare Workers
@@ -79,7 +79,7 @@ Each year is self-contained with this structure:
 - `YYYY-Month_Collection` — monthly theme and project captures
 
 Current year index: [[2026-Index]]
-Current month: [[2026-September]]
+Current month: [[2026-November]]
 Current collections: [[2026-Collections]]
 
 Previous year indexes:
@@ -144,6 +144,6 @@ A flat archive of published LinkedIn posts stored in `02-Social-Posts/`.
 3. [[00-Personal-Context-Portfolio/Personal Context Portfolio|Personal Context Portfolio]] - This is the guide to who I am, what I do, and how to work with me.
 4. [[2026-Index]] — current year index
 5. [[2026-Collections]] — current year collections
-6. [[2026-September]] — current month
+6. [[2026-November]] — current month
 
 [[README]]
