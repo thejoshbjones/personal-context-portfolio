@@ -42,7 +42,7 @@ you ask.
 
 ### Task Layer
 - Tasks live in monthly daily entries (e.g., [[2026-November]])
-- Tasks flow in from KRISP automatically — tasks only, not meeting notes
+- Tasks come in from KRISP via the `task-flow-sync` skill — tasks only, not meeting notes
 - Completed tasks are marked `x`
 - Open tasks have no prefix
 - Carry-forward items reference original page numbers

@@ -116,8 +116,10 @@ A flat archive of published LinkedIn posts stored in `02-Social-Posts/`.
 - In Conjunction with the other layers when asking about a perspective on a given situation.
 
 ## How Tasks Work
-- Tasks are captured via KRISP and flow into the current month's 
-  daily entries automatically
+- Tasks are captured via KRISP and imported by the `task-flow-sync` 
+  skill (with preview): my tasks go into today's daily entry; Will/Todd's 
+  go to `### Tasks` under 1:1 Up and others' under 1:1 Down in the month 
+  Collection. Migrated items are marked complete in KRISP.
 - Meeting notes do NOT auto-populate — only tasks
 - If meeting notes are needed, I will instruct an agent to append 
   a new section to [[2026-Collections]]
