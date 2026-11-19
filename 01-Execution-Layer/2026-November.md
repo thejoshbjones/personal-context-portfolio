@@ -87,27 +87,27 @@ November
 - [x] Call w/Jake re:configuration expiration import
 - [ ] Create loop for ghost board triage skill
 - [ ] Prep schedule for next week
-- [ ] Confirm Brazos audit is closed and tell Kris the scanning software can be removed [KRISP: ITV - Brazos ITSC 11-18, due 11-24]
-- [ ] Schedule the Brazos audit closing meeting [KRISP: ITV - Brazos ITSC 11-18, due 11-25]
-- [ ] Get the audit reports from the team and send them to Todd [KRISP: ITV - Brazos ITSC 11-18, due 11-24]
-- [ ] Send the tabletop test report to the team [KRISP: ITV - Brazos ITSC 11-18, due 11-25]
-- [ ] Follow up with Peter and Jordan on turning off the Kaseya auto-renewal [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-19]
-- [ ] Follow up with Melody on the divergence between cloud resale revenue and COGS [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-19]
-- [ ] Follow up with ScalePad and decide whether to remove the payment method [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-20]
-- [ ] Call John (InBank) after Thanksgiving about the V-PenTest commitment [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-30]
-- [ ] Hold the call with Galactic Advisors [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-1]
-- [ ] Meet with the managed IT team about the escalation process [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-3]
-- [ ] Ask Tina about CyberFox customers being introduced to overages [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-3]
-- [ ] Rework how team reports are presented with Jordan, Tina and Dub [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-9]
-- [ ] Split project COGS from MRR COGS and separate MRR vs project profitability on the slides [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-9]
-- [ ] Set up a meeting with Tina, Kelly and James to rethink the cyber tool stack and strategy [KRISP: ITV - Cyber LOB Preso (For Wed) 11-18, due 11-20]
-- [ ] Resend the Claude scorecard and ticket triage prompts to Tina and the team [KRISP: ITV - Cyber LOB Preso (For Wed) 11-18, due 11-20]
-- [ ] Meet with Dub and write up the Nashville Hyper-V migration for Will and others [KRISP: ITV - Will 11-16, due 11-23]
-- [ ] Ask Mike to verify the Nashville Hyper-V network write-up [KRISP: ITV - Will and Dub 11-16, due 11-23]
-- [ ] Confirm with Adam and Dub whether the additional Nashville switches are still needed [KRISP: ITV - Will 11-16, due 11-23]
-- [ ] Connect Will by email with the former Magnolia HR contact [KRISP: ITV - Will 11-16, due 11-23]
-- [ ] Go through Domotz, Auvik and PRTG with Adam for price normalization [KRISP: ITV - Will 11-16, due 11-23]
-- [ ] Validate Chris's Guardian deployment standard and make it available outside projects [KRISP: ITV - Adding/Removing Users 11-13, due 11-25]
+- [ ] Confirm Brazos audit is closed and tell Kris the scanning software can be removed (KRISP: ITV - Brazos ITSC 11-18, due 11-24)
+- [ ] Schedule the Brazos audit closing meeting (KRISP: ITV - Brazos ITSC 11-18, due 11-25)
+- [ ] Get the audit reports from the team and send them to Todd (KRISP: ITV - Brazos ITSC 11-18, due 11-24)
+- [ ] Send the tabletop test report to the team (KRISP: ITV - Brazos ITSC 11-18, due 11-25)
+- [ ] Follow up with Peter and Jordan on turning off the Kaseya auto-renewal (KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-19)
+- [ ] Follow up with Melody on the divergence between cloud resale revenue and COGS (KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-19)
+- [ ] Follow up with ScalePad and decide whether to remove the payment method (KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-20)
+- [ ] Call John (InBank) after Thanksgiving about the V-PenTest commitment (KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-30)
+- [ ] Hold the call with Galactic Advisors (KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-1)
+- [ ] Meet with the managed IT team about the escalation process (KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-3)
+- [ ] Ask Tina about CyberFox customers being introduced to overages (KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-3)
+- [ ] Rework how team reports are presented with Jordan, Tina and Dub (KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-9)
+- [ ] Split project COGS from MRR COGS and separate MRR vs project profitability on the slides (KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-9)
+- [ ] Set up a meeting with Tina, Kelly and James to rethink the cyber tool stack and strategy (KRISP: ITV - Cyber LOB Preso (For Wed) 11-18, due 11-20)
+- [ ] Resend the Claude scorecard and ticket triage prompts to Tina and the team (KRISP: ITV - Cyber LOB Preso (For Wed) 11-18, due 11-20)
+- [ ] Meet with Dub and write up the Nashville Hyper-V migration for Will and others (KRISP: ITV - Will 11-16, due 11-23)
+- [ ] Ask Mike to verify the Nashville Hyper-V network write-up (KRISP: ITV - Will and Dub 11-16, due 11-23)
+- [ ] Confirm with Adam and Dub whether the additional Nashville switches are still needed (KRISP: ITV - Will 11-16, due 11-23)
+- [ ] Connect Will by email with the former Magnolia HR contact (KRISP: ITV - Will 11-16, due 11-23)
+- [ ] Go through Domotz, Auvik and PRTG with Adam for price normalization (KRISP: ITV - Will 11-16, due 11-23)
+- [ ] Validate Chris's Guardian deployment standard and make it available outside projects (KRISP: ITV - Adding/Removing Users 11-13, due 11-25)
 - [ ] Schedule time with Jake and Will about NexNow (from 1:1 w/Will on 11/16)
 - [ ] Look into Todyl (from 1:1 w/Will on 11/16)
 - [ ] Figure out Kaseya costs (from 1:1 w/Will on 11/16)
