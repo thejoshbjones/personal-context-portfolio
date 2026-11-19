@@ -126,7 +126,7 @@
 - [x] Update list of Jake tasks
 - [x] Call with James Wallace
 - [x] NOVA Map
-- [ ] Brazos Request List -->pg63-10-5
+- [x] Brazos Request List -->pg63-10-5
 
 ---
 ## 2026-09-16 (p.59)

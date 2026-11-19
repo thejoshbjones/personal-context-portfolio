@@ -47,7 +47,7 @@
 ---
 ## 2026-10-05 (p.63)
 
-- [ ] Brazos Request List <--pg59-9-14 -->pg67-11-2
+- [x] Brazos Request List <--pg59-9-14 -->pg67-11-2
 - [x] Build Capacity Measures <--pg58-9-2
 - [x] Finish W2 Multiple
 - [x] What are the things I need to do re: special payroll?

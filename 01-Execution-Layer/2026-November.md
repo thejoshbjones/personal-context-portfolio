@@ -51,20 +51,67 @@ November
 - [x] Review Sophos usage and invoices for CyberSanik <--pg64-10-30
 - [x] Address CW Time Approvals
 - [x] Address Nashville Switch Plans
-- [ ] Brazos Request List <--pg63-10-5 -->pg67-11-12
+- [x] Brazos Request List <--pg63-10-5 -->pg67-11-12
 
 ---
 ## 2026-11-11 (p.67)
 
 - [x] Adjust Ghost Board skill to include voice tickets and team
 - [x] Develop Communication for DG and schedule call
-- [ ] Follow up on ESXi licensing -->pg67-11-12
+- [x] Follow up on ESXi licensing -->pg67-11-12
 
 ---
 ## 2026-11-12 (p.67)
 
-- [ ] Follow up on ESXi licensing <--pg67-11-11
-- [ ] Send NexNow Pricing to Todd
-- [ ] Follow Up on information for Brazos Audit <--pg67-11-2
+- [x] Follow up on ESXi licensing <--pg67-11-11
+- [x] Send NexNow Pricing to Todd
+- [x] Follow Up on information for Brazos Audit -->pg67-11-16
 
 ---
+## 2026-11-16 (p.67)
+
+- [x] Follow Up on information for Brazos Audit <--pg67-11-12 -->pg67-11-18
+- [x] Email John at InBank
+- [x] Schedule call w/Jake, Will, and Todd on NexNow
+
+---
+## 2026-11-18 (p.67)
+
+- [x] Follow Up on information for Brazos Audit <--pg67-11-16
+- [x] Brazos Bank ITSC
+- [x] LOB call
+
+---
+## 2026-11-19 (p.67)
+
+- [x] Call w/Jake re:configuration expiration import
+- [ ] Create loop for ghost board triage skill
+- [ ] Prep schedule for next week
+- [ ] Confirm Brazos audit is closed and tell Kris the scanning software can be removed [KRISP: ITV - Brazos ITSC 11-18, due 11-24]
+- [ ] Schedule the Brazos audit closing meeting [KRISP: ITV - Brazos ITSC 11-18, due 11-25]
+- [ ] Get the audit reports from the team and send them to Todd [KRISP: ITV - Brazos ITSC 11-18, due 11-24]
+- [ ] Send the tabletop test report to the team [KRISP: ITV - Brazos ITSC 11-18, due 11-25]
+- [ ] Follow up with Peter and Jordan on turning off the Kaseya auto-renewal [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-19]
+- [ ] Follow up with Melody on the divergence between cloud resale revenue and COGS [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-19]
+- [ ] Follow up with ScalePad and decide whether to remove the payment method [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-20]
+- [ ] Call John (InBank) after Thanksgiving about the V-PenTest commitment [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-30]
+- [ ] Hold the call with Galactic Advisors [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-1]
+- [ ] Meet with the managed IT team about the escalation process [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-3]
+- [ ] Ask Tina about CyberFox customers being introduced to overages [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-3]
+- [ ] Rework how team reports are presented with Jordan, Tina and Dub [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-9]
+- [ ] Split project COGS from MRR COGS and separate MRR vs project profitability on the slides [KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 12-9]
+- [ ] Set up a meeting with Tina, Kelly and James to rethink the cyber tool stack and strategy [KRISP: ITV - Cyber LOB Preso (For Wed) 11-18, due 11-20]
+- [ ] Resend the Claude scorecard and ticket triage prompts to Tina and the team [KRISP: ITV - Cyber LOB Preso (For Wed) 11-18, due 11-20]
+- [ ] Meet with Dub and write up the Nashville Hyper-V migration for Will and others [KRISP: ITV - Will 11-16, due 11-23]
+- [ ] Ask Mike to verify the Nashville Hyper-V network write-up [KRISP: ITV - Will and Dub 11-16, due 11-23]
+- [ ] Confirm with Adam and Dub whether the additional Nashville switches are still needed [KRISP: ITV - Will 11-16, due 11-23]
+- [ ] Connect Will by email with the former Magnolia HR contact [KRISP: ITV - Will 11-16, due 11-23]
+- [ ] Go through Domotz, Auvik and PRTG with Adam for price normalization [KRISP: ITV - Will 11-16, due 11-23]
+- [ ] Validate Chris's Guardian deployment standard and make it available outside projects [KRISP: ITV - Adding/Removing Users 11-13, due 11-25]
+- [ ] Schedule time with Jake and Will about NexNow (from 1:1 w/Will on 11/16)
+- [ ] Look into Todyl (from 1:1 w/Will on 11/16)
+- [ ] Figure out Kaseya costs (from 1:1 w/Will on 11/16)
+- [ ] Alert Board Flow (from 1:1 w/Todd on 11/16)
+- [ ] Leadership Capacity Form - 20th (from 1:1 w/Todd on 11/16)
+- [ ] Connect with Bob (from 1:1 w/Todd on 11/16)
+- [ ] Remove Tom from Tina's Plate (from 1:1 w/Tina on 11/12)
