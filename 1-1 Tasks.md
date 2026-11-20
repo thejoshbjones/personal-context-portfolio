@@ -6,6 +6,8 @@ Open tasks other people own, imported from KRISP by `task-flow-sync`. Check them
 ## Will
 - [ ] Investigate RocketCyber protected endpoints vs. what Kaseya is charging (KRISP: ITV - Will 11-16, due 11-23)
 - [ ] Get Jake's alignment on the NexNow import decision (KRISP: ITV - Will 11-16, due 11-23)
+- [ ] Review the licenses list with Joshua and categorize each as not renewing, month to month, or annual renewal (KRISP: ITV - Connect with Liz 11-20)
+- [ ] Discuss the Liz quote with Joshua and let Liz know the decision (KRISP: ITV - Connect with Liz 11-20)
 
 ## Todd
 - [ ] Send Joshua the email about the audit prep hours discrepancy (KRISP: ITV - MIT, Cloud & Cyber LOB 11-18, due 11-23)
@@ -42,3 +44,9 @@ Open tasks other people own, imported from KRISP by `task-flow-sync`. Check them
 
 ## Melanie
 - [ ] Communicate new user routing to dispatch (Rachel, John) (KRISP: ITV - Adding/Removing Users 11-13)
+
+## Liz
+- [ ] Check whether January can be given free on the quote (KRISP: ITV - Connect with Liz 11-20)
+- [ ] With Chris, send Will an updated list of all existing licenses showing auto renew status (KRISP: ITV - Connect with Liz 11-20, due 12-4)
+- [ ] Find and send Matt's email requesting everything be taken off auto renew, with signatures going to Will (KRISP: ITV - Connect with Liz 11-20)
+- [ ] Send the formal quote to Will and Joshua (KRISP: ITV - Connect with Liz 11-20)
